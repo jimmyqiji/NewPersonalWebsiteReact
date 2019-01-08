@@ -6,9 +6,11 @@ class AboutPage extends React.Component {
 		return(
 			<div id="about">
 				<div id="portrait">
-					<img
+					
 				</div>
 			</div>
 		);
 	}
 }
+
+export default AboutPage;
