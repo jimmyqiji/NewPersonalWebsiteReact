@@ -5,6 +5,11 @@ class TitlePage extends React.Component {
 	render() {
 		return (
 			<div>
+				<div class="titletext" id="name"><h1>JIMMY QI</h1></div>
+				<div id="links">
+					<a href="../src/resources/resume.pdf"><button type="button" class="brownbtn btn btn-outline-secondary">Resume</button></a>
+					<button type="button" class="brownbtn btn btn-outline-secondary">Portfolio</button>
+				</div>
 				<div class="keyart" id="nonparallax"></div>
 				<div class="keyart" id="parallax">
 				  <div class="keyart_layer parallax" id="keyart-0" data-speed="2"></div>	

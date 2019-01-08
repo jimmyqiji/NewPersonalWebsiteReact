@@ -1,9 +1,54 @@
 /* PARALLAX */
-$baseurl: 'http://www.firewatchgame.com/';
 
 .body {
   margin: -5px;
 }
+
+#name {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  top: 20vh;
+}
+
+#name h1{
+  font-size: 6vw;
+}
+
+.titletext {
+  color: #210002;
+}
+
+#links {
+  color: #210002;
+  position: fixed;
+  top:40vh;
+  width: 100%;
+}
+
+.brownbtn {
+  color: #210002;
+  border-color: #210002;
+  display: block;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+#links a {
+  text-decoration: none;
+}
+.brownbtn:hover, .brownbtn:active, .brownbtn.active, .open {
+  background-color: #210002;
+}
+
+/*.brownbtn:active {
+  box-shadow: none;
+}
+
+.brownbtn:active:focus {
+  background-color: #210002;
+}*/
 
 .keyart, .keyart_layer {
   height: 1000px;
@@ -26,7 +71,7 @@ $baseurl: 'http://www.firewatchgame.com/';
 
 .keyart {
   position: relative;
-  z-index: 10;
+  z-index: -10;
 }
 
 .keyart_layer {
@@ -78,5 +123,8 @@ $baseurl: 'http://www.firewatchgame.com/';
   }
   #parallax {
     display: none;
+  }
+  #name h1{
+    font-size: 12vw;
   }
 }
