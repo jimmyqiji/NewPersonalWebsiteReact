@@ -2,6 +2,22 @@
 	display: block;
 	background-color: #210002;
 	width: 100%;
-	height: 500px;
+	/*height: 500px;*/
+	display: inline-block;
+}
+
+#description p{
+	margin: auto;
+	width: 50%;
+	font-size: 5vw;
+	color: white;
+	word-wrap: break-word;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){ 
+
+#about {
+	display: block;
+}
 
 }
