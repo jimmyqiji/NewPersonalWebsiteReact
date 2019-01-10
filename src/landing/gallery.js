@@ -7,8 +7,9 @@ var pictures = 8;
 class Tile extends React.Component {
 	render() {
 		return(
-			<img src={require("../resources/gallery/image" + this.props.value.toString() + ".jpg")} />
-			
+			<div class="tile-wrapper">
+				<img class="tile" src={require("../resources/gallery/image" + this.props.value.toString() + ".jpg")} />
+			</div>
 		);
 	}
 }
