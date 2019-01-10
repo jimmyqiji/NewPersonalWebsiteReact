@@ -1,6 +1,14 @@
-#tiles {
+#gallery {
 	background-color: #210002;
-	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+#tiles {
+	position: relative;
+	width: 80%;
+	left: 50%;
+	transform: translate(-50%, 0);
 }
 
 .tile-wrapper {
@@ -20,4 +28,10 @@
 	transform: scale(1.1);
 	filter: none;
     -webkit-filter: grayscale(0);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){ 
+.tile-wrapper {
+	width: 50%;
+}
 }

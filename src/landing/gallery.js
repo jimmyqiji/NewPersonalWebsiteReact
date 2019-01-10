@@ -30,7 +30,7 @@ class Gallery extends React.Component {
 
 	render(){
 		return(
-			<div>
+			<div id="gallery">
 				<div id="tiles">
 					{this.createImage()}
 				</div>

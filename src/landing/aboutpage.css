@@ -26,10 +26,10 @@
 	left: 40%;
 	/*display: inline-block;*/
 	margin-left: 40%; margin-right: 10%;
-	margin-top: 20vh; margin-bottom: 20vh;
+	margin-top: 20vh; margin-bottom: 10vh;
 }
 #description p{
-	font-size: 2vw;
+	font-size: 17px;
 	color: white;
 	word-wrap: break-word;
 }
