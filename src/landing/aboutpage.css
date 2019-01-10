@@ -17,7 +17,6 @@
   top: 50%; left: 20%;
   transform: translate(-50%,-50%);
   display: inline-block;
-  margin: auto;
 }
 
 #description {
@@ -38,6 +37,22 @@
 
 #about {
 	display: block;
+}
+
+#portrait {
+	position: absolute;
+	background-size: 50vw;
+	width: 50vw;
+	height: 50vw;
+	top: -50vw;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+#description {
+	width: 80%;
+	margin: auto;
+	margin-top: 50vw;
 }
 
 }
