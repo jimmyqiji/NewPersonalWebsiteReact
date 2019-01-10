@@ -1,0 +1,22 @@
+#tiles {
+	background-color: #210002;
+	width: 100%;
+	height: 500px;
+}
+
+.tile {
+	background-size: 250px;
+	background-repeat: no-repeat;
+	width: 25%;
+	height: 300px;
+	float: left;
+	filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.tile:hover {
+	transform: scale(1.1);
+	filter: none;
+    -webkit-filter: grayscale(0);
+}

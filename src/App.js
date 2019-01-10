@@ -3,6 +3,7 @@ import $ from 'jquery';
 import './App.css';
 import TitlePage from './landing/titlepage'
 import AboutPage from './landing/aboutpage'
+import Gallery from './landing/gallery'
 
 class App extends React.Component {
   render() {
@@ -10,6 +11,7 @@ class App extends React.Component {
       <div>
         <TitlePage />
         <AboutPage />
+        <Gallery />
       </div>
     );
   }
@@ -21,9 +23,9 @@ $(document).ready( function() {
   var portfoliotop = document.getElementById("portfolio").getBoundingClientRect().top;
   var abouttop = $("#about").offset().top;
   $(window).scroll(function() {
-    console.log(abouttop);
-    console.log(portfoliotop);
-    console.log($(window).scrollTop());
+    // console.log(abouttop);
+    // console.log(portfoliotop);
+    // console.log($(window).scrollTop());
     if($(window).scrollTop() + nametop < abouttop) { //scrolled past the other div?
       $("#name").show(); //reached the desired point -- show div
     }

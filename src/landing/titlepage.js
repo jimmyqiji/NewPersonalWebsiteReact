@@ -8,7 +8,7 @@ class TitlePage extends React.Component {
 				<div class="titletext" id="name"><h1>JIMMY QI</h1></div>
 				<div id="links">
 					<div id="resume">
-						<a href="../resources/resume.pdf"><button type="button" class="brownbtn btn btn-outline-secondary">Resume</button></a>
+						<a href={require("../resources/resume.pdf")}><button type="button" class="brownbtn btn btn-outline-secondary">Resume</button></a>
 					</div>
 					<div id="portfolio">
 						<button type="button" class="brownbtn btn btn-outline-secondary">Portfolio</button>
@@ -36,8 +36,6 @@ class TitlePage extends React.Component {
 }
 
 function castParallax() {
-	var opThresh = 350;
-	var opFactor = 750;
 	window.addEventListener("scroll", function(event){
 		var top = this.pageYOffset;
 		var layers = document.getElementsByClassName("parallax");
