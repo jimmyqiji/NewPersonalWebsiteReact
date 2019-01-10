@@ -1,15 +1,35 @@
 #about {
-	display: block;
 	background-color: #210002;
 	width: 100%;
-	/*height: 500px;*/
+	/*height: 100vh;*/
 	display: inline-block;
+	vertical-align: middle;
+	position: relative;
 }
 
-#description p{
-	margin: auto;
+#portrait {
+  background-image: url('../resources/portrait.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 20vw;
+  height: 20vw;
+  width: 20vw;
+  top: 50%; left: 20%;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+  margin: auto;
+}
+
+#description {
+	/*position: absolute;*/
 	width: 50%;
-	font-size: 5vw;
+	left: 40%;
+	/*display: inline-block;*/
+	margin-left: 40%; margin-right: 10%;
+	margin-top: 20vh; margin-bottom: 20vh;
+}
+#description p{
+	font-size: 2vw;
 	color: white;
 	word-wrap: break-word;
 }

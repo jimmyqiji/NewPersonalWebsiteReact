@@ -8,7 +8,7 @@ class TitlePage extends React.Component {
 				<div class="titletext" id="name"><h1>JIMMY QI</h1></div>
 				<div id="links">
 					<div id="resume">
-						<a href="../src/resources/resume.pdf"><button type="button" class="brownbtn btn btn-outline-secondary">Resume</button></a>
+						<a href="../resources/resume.pdf"><button type="button" class="brownbtn btn btn-outline-secondary">Resume</button></a>
 					</div>
 					<div id="portfolio">
 						<button type="button" class="brownbtn btn btn-outline-secondary">Portfolio</button>
