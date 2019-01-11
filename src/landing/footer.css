@@ -1,0 +1,27 @@
+#footer {
+	background-color: #210002;
+	text-align: center;
+}
+
+#social {
+	display: inline-block;
+	width: 60%;
+	margin: auto;
+}
+
+#social img {
+	width: 5vw;
+}
+
+#social a {
+	margin-left: 2vw; margin-right: 2vw;
+}
+
+#copyright {
+	color: #d3d3d3;
+}
+
+#copyright p {
+	margin-bottom: 0;
+	font-size: 12px;
+}

@@ -1,14 +1,16 @@
 #gallery {
 	background-color: #210002;
-	display: inline-block;
 	position: relative;
 }
 
 #tiles {
+	display: inline-block;
+	background-color: #210002;
 	position: relative;
 	width: 80%;
 	left: 50%;
 	transform: translate(-50%, 0);
+	margin-bottom: 10vh;
 }
 
 .tile-wrapper {

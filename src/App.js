@@ -4,6 +4,7 @@ import './App.css';
 import TitlePage from './landing/titlepage'
 import AboutPage from './landing/aboutpage'
 import Gallery from './landing/gallery'
+import FooterPage from './landing/footer'
 
 class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class App extends React.Component {
         <TitlePage />
         <AboutPage />
         <Gallery />
+        <FooterPage />
       </div>
     );
   }
@@ -55,8 +57,7 @@ $(document).ready( function() {
 //   });
 // });
 
-// function hideElemScroll(s, p) {
-//   var sTop = $(s).offset().top;
+// function hideElemScroll(s, p, sTop) {
 //   var pTop = $(p).offset().top;
 //   $(window).scroll(function() {
 //     if($(window).scrollTop() + sTop < pTop) { //scrolled past the other div?
