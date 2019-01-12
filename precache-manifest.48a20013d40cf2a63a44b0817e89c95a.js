@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "a1124ff21bbefb8a1c63fdd525891a80",
-    "url": "/NewPersonalWebsiteReact/static/media/parallax8.a1124ff2.png"
+    "revision": "dc65f3461c7015d94f858e6de337d209",
+    "url": "/NewPersonalWebsiteReact/static/media/keyart-mobile.dc65f346.jpg"
   },
   {
     "revision": "bab3f14d3d565b09dc33",
@@ -16,16 +16,8 @@ self.__precacheManifest = [
     "url": "/NewPersonalWebsiteReact/static/js/runtime~main.c2a7974f.js"
   },
   {
-    "revision": "dc65f3461c7015d94f858e6de337d209",
-    "url": "/NewPersonalWebsiteReact/static/media/keyart-mobile.dc65f346.jpg"
-  },
-  {
     "revision": "bac00e42cc8bf06df9d05485095469da",
     "url": "/NewPersonalWebsiteReact/static/media/parallax0.bac00e42.png"
-  },
-  {
-    "revision": "f9e455880da28e01b04924747d5629f5",
-    "url": "/NewPersonalWebsiteReact/static/media/parallax2.f9e45588.png"
   },
   {
     "revision": "de4f2e1438a5658f9b2586b133f39522",
@@ -50,6 +42,14 @@ self.__precacheManifest = [
   {
     "revision": "9aadff21aad1be958be0199d07ea03d9",
     "url": "/NewPersonalWebsiteReact/static/media/parallax7.9aadff21.png"
+  },
+  {
+    "revision": "f9e455880da28e01b04924747d5629f5",
+    "url": "/NewPersonalWebsiteReact/static/media/parallax2.f9e45588.png"
+  },
+  {
+    "revision": "a1124ff21bbefb8a1c63fdd525891a80",
+    "url": "/NewPersonalWebsiteReact/static/media/parallax8.a1124ff2.png"
   },
   {
     "revision": "bab3f14d3d565b09dc33",
