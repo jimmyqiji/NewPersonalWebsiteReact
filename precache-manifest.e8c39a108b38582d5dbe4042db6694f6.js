@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "9aadff21aad1be958be0199d07ea03d9",
-    "url": "/NewPersonalWebsiteReact/static/media/parallax7.9aadff21.png"
+    "revision": "a1124ff21bbefb8a1c63fdd525891a80",
+    "url": "/NewPersonalWebsiteReact/static/media/parallax8.a1124ff2.png"
   },
   {
-    "revision": "40bdddea2d02b0f9c81e",
+    "revision": "bab3f14d3d565b09dc33",
     "url": "/NewPersonalWebsiteReact/static/css/main.d8f5620f.chunk.css"
   },
   {
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/NewPersonalWebsiteReact/static/media/parallax0.bac00e42.png"
   },
   {
-    "revision": "f9e455880da28e01b04924747d5629f5",
-    "url": "/NewPersonalWebsiteReact/static/media/parallax2.f9e45588.png"
-  },
-  {
     "revision": "de4f2e1438a5658f9b2586b133f39522",
     "url": "/NewPersonalWebsiteReact/static/media/parallax1.de4f2e14.png"
+  },
+  {
+    "revision": "f9e455880da28e01b04924747d5629f5",
+    "url": "/NewPersonalWebsiteReact/static/media/parallax2.f9e45588.png"
   },
   {
     "revision": "85af35fc3d60d06c95e014b2d28e9064",
@@ -40,24 +40,24 @@ self.__precacheManifest = [
     "url": "/NewPersonalWebsiteReact/static/media/parallax3.2c1791eb.png"
   },
   {
-    "revision": "22944f56a35ee5d3ae67bad3ca8188b9",
-    "url": "/NewPersonalWebsiteReact/static/media/parallax5.22944f56.png"
-  },
-  {
     "revision": "62e88f1523433e6858111393766fcbb7",
     "url": "/NewPersonalWebsiteReact/static/media/parallax6.62e88f15.png"
   },
   {
-    "revision": "a1124ff21bbefb8a1c63fdd525891a80",
-    "url": "/NewPersonalWebsiteReact/static/media/parallax8.a1124ff2.png"
+    "revision": "22944f56a35ee5d3ae67bad3ca8188b9",
+    "url": "/NewPersonalWebsiteReact/static/media/parallax5.22944f56.png"
   },
   {
-    "revision": "40bdddea2d02b0f9c81e",
-    "url": "/NewPersonalWebsiteReact/static/js/main.40bdddea.chunk.js"
+    "revision": "9aadff21aad1be958be0199d07ea03d9",
+    "url": "/NewPersonalWebsiteReact/static/media/parallax7.9aadff21.png"
   },
   {
-    "revision": "1746af599bb36944f52a01b348154287",
-    "url": "/NewPersonalWebsiteReact/static/media/resume.1746af59.pdf"
+    "revision": "bab3f14d3d565b09dc33",
+    "url": "/NewPersonalWebsiteReact/static/js/main.bab3f14d.chunk.js"
+  },
+  {
+    "revision": "b013028664a6259fae1fb074f8bfb329",
+    "url": "/NewPersonalWebsiteReact/static/media/resume.b0130286.pdf"
   },
   {
     "revision": "10c46e81beb53ae4c5ad10b5e34ea657",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/NewPersonalWebsiteReact/static/media/instagram.90cc117a.png"
   },
   {
-    "revision": "be322b5c1ee3bca45962f9ea541b1dc3",
+    "revision": "2e6d6064b7c0ae570083e15172ca214c",
     "url": "/NewPersonalWebsiteReact/index.html"
   }
 ];
