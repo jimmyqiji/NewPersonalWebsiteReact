@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "de4f2e1438a5658f9b2586b133f39522",
-    "url": "/static/media/parallax1.de4f2e14.png"
+    "revision": "a1124ff21bbefb8a1c63fdd525891a80",
+    "url": "/static/media/parallax8.a1124ff2.png"
   },
   {
     "revision": "fad0db63d776d0b1cb9d",
@@ -20,36 +20,36 @@ self.__precacheManifest = [
     "url": "/static/media/keyart-mobile.dc65f346.jpg"
   },
   {
-    "revision": "f9e455880da28e01b04924747d5629f5",
-    "url": "/static/media/parallax2.f9e45588.png"
-  },
-  {
     "revision": "bac00e42cc8bf06df9d05485095469da",
     "url": "/static/media/parallax0.bac00e42.png"
   },
   {
-    "revision": "85af35fc3d60d06c95e014b2d28e9064",
-    "url": "/static/media/parallax4.85af35fc.png"
+    "revision": "de4f2e1438a5658f9b2586b133f39522",
+    "url": "/static/media/parallax1.de4f2e14.png"
   },
   {
-    "revision": "62e88f1523433e6858111393766fcbb7",
-    "url": "/static/media/parallax6.62e88f15.png"
+    "revision": "f9e455880da28e01b04924747d5629f5",
+    "url": "/static/media/parallax2.f9e45588.png"
   },
   {
     "revision": "2c1791eb9f8c8abd3b32bd78e25b1735",
     "url": "/static/media/parallax3.2c1791eb.png"
   },
   {
-    "revision": "9aadff21aad1be958be0199d07ea03d9",
-    "url": "/static/media/parallax7.9aadff21.png"
-  },
-  {
-    "revision": "a1124ff21bbefb8a1c63fdd525891a80",
-    "url": "/static/media/parallax8.a1124ff2.png"
+    "revision": "85af35fc3d60d06c95e014b2d28e9064",
+    "url": "/static/media/parallax4.85af35fc.png"
   },
   {
     "revision": "22944f56a35ee5d3ae67bad3ca8188b9",
     "url": "/static/media/parallax5.22944f56.png"
+  },
+  {
+    "revision": "62e88f1523433e6858111393766fcbb7",
+    "url": "/static/media/parallax6.62e88f15.png"
+  },
+  {
+    "revision": "9aadff21aad1be958be0199d07ea03d9",
+    "url": "/static/media/parallax7.9aadff21.png"
   },
   {
     "revision": "fad0db63d776d0b1cb9d",

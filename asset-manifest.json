@@ -7,7 +7,7 @@
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/image4.jpg": "/static/media/image4.25524da9.jpg",
-  "static/media/titlepage.css": "/static/media/parallax2.f9e45588.png",
+  "static/media/titlepage.css": "/static/media/parallax0.bac00e42.png",
   "static/media/resume.pdf": "/static/media/resume.b0130286.pdf",
   "static/media/aboutpage.css": "/static/media/portrait.10c46e81.png",
   "static/media/image0.jpg": "/static/media/image0.a6a16ca4.jpg",
@@ -21,6 +21,6 @@
   "static/media/instagram.png": "/static/media/instagram.90cc117a.png",
   "static/css/main.6dc9587a.chunk.css.map": "/static/css/main.6dc9587a.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.7735c1fbbfe8eaafaa6849f64f44ecdd.js": "/precache-manifest.7735c1fbbfe8eaafaa6849f64f44ecdd.js",
+  "precache-manifest.befd0ef1fc9f0c4dd4c442376bb2582b.js": "/precache-manifest.befd0ef1fc9f0c4dd4c442376bb2582b.js",
   "service-worker.js": "/service-worker.js"
 }
