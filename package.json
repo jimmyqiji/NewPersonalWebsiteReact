@@ -2,7 +2,7 @@
   "name": "new-personal-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:/jimmyqiji.github.io/",
+  "homepage": "http://jimmyqi.me/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
