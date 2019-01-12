@@ -7,7 +7,7 @@
   "runtime~main.js": "/NewPersonalWebsiteReact/static/js/runtime~main.c2a7974f.js",
   "runtime~main.js.map": "/NewPersonalWebsiteReact/static/js/runtime~main.c2a7974f.js.map",
   "static/media/image4.jpg": "/NewPersonalWebsiteReact/static/media/image4.25524da9.jpg",
-  "static/media/titlepage.css": "/NewPersonalWebsiteReact/static/media/parallax1.de4f2e14.png",
+  "static/media/titlepage.css": "/NewPersonalWebsiteReact/static/media/parallax0.bac00e42.png",
   "static/media/resume.pdf": "/NewPersonalWebsiteReact/static/media/resume.b0130286.pdf",
   "static/media/aboutpage.css": "/NewPersonalWebsiteReact/static/media/portrait.10c46e81.png",
   "static/media/image0.jpg": "/NewPersonalWebsiteReact/static/media/image0.a6a16ca4.jpg",
@@ -21,6 +21,6 @@
   "static/media/instagram.png": "/NewPersonalWebsiteReact/static/media/instagram.90cc117a.png",
   "static/css/main.d8f5620f.chunk.css.map": "/NewPersonalWebsiteReact/static/css/main.d8f5620f.chunk.css.map",
   "index.html": "/NewPersonalWebsiteReact/index.html",
-  "precache-manifest.48a20013d40cf2a63a44b0817e89c95a.js": "/NewPersonalWebsiteReact/precache-manifest.48a20013d40cf2a63a44b0817e89c95a.js",
+  "precache-manifest.caf4af55004c0d88205af2808609a67f.js": "/NewPersonalWebsiteReact/precache-manifest.caf4af55004c0d88205af2808609a67f.js",
   "service-worker.js": "/NewPersonalWebsiteReact/service-worker.js"
 }
