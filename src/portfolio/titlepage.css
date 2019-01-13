@@ -1,0 +1,14 @@
+.brownbtn {
+  color: #210002;
+  border-color: #210002;
+  display: block;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+#titlepage {
+	text-align: center;
+	background-repeat: no-repeat;
+	
+}

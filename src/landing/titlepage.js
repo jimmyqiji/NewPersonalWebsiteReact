@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './titlepage.css'
 
 class TitlePage extends React.Component {
@@ -11,7 +12,9 @@ class TitlePage extends React.Component {
 						<a href={require("../resources/resume.pdf")}><button type="button" class="brownbtn btn btn-outline-secondary">Resume</button></a>
 					</div>
 					<div id="portfolio">
-						<button type="button" class="brownbtn btn btn-outline-secondary">Portfolio</button>
+						<Link to="/portfolio">
+							<button type="button" class="brownbtn btn btn-outline-secondary">Portfolio</button>
+						</Link>
 					</div>
 				</div>
 				<div class="keyart" id="nonparallax"></div>
