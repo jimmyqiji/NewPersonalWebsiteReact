@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 	<BrowserRouter>
-		<div> 
+		<div>
 			<Route exact path="/" component={App} />
 			<Route exact path="/portfolio" component={Portfolio} />
 		</div>

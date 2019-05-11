@@ -22,7 +22,7 @@ class ProjectPage extends React.Component {
 		let proj_list = [];
 		for(let i = 0; i < this.state.projects.length; i++) {
 			proj_list.push(
-				<div class="project" id={"project" + i}>
+				<div id={"project" + i}>
 					{this.state.projects[i]}
 				</div>
 			)
@@ -47,7 +47,7 @@ class ProjectPage extends React.Component {
 class PageDot extends React.Component {
 	render() {
 		return(
-			<div class="dot" id={"dot" + i}> </div>
+			<div class="dot" id={"dot" + this.props.value}> </div>
 		);
 	}
 }

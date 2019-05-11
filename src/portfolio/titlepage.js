@@ -15,7 +15,7 @@ class TitlePage extends React.Component {
 					<div id="title"><h1>Portfolio</h1></div>
 					<div id="subtitle"><h2>A Collection of Projects</h2></div>
 				</div>
-				<div id="scrldown1" class="scrldown">
+				<div id="scrldown1" class="scrldown clearfix">
 					<a scrlto="#projectpage"><span></span>Scroll</a>
 				</div>
 			</div>

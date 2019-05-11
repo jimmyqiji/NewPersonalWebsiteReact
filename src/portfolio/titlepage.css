@@ -36,7 +36,7 @@
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.scrldown a {
+/*.scrldown {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -49,13 +49,33 @@
   letter-spacing: .1em;
   text-decoration: none;
   transition: opacity .3s;
-}
-.scrldown a:hover {
   opacity: .5;
+}*/
+
+.scrldown a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 10;
+  display: inline-block;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+  opacity: .5;
+}
+
+.scrldown a:hover {
+  opacity: 1;
 }
 
 #scrldown1 a {
   padding-top: 60px;
+  color: #fff;
+  font-size: 12px;
 }
 #scrldown1 a span {
   position: absolute;
