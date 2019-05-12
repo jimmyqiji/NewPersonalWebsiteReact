@@ -1,6 +1,9 @@
 import React from 'react'
+import $ from 'jquery'; 
 import './projectpage.css'
 import Mappify from './projects/mappify'
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel';
 
 class ProjectPage extends React.Component {
 	constructor(props) {
@@ -36,11 +39,19 @@ class ProjectPage extends React.Component {
 				<div id="button_left"></div>
 				<div id="button_right"></div>
 				<div class="slideshow" cur_slide="0">
-					{this.renderProjects()}
+					<div class="owl-carousel">
+						{this.renderProjects()}
+					</div>
 					{this.renderdots()}
 				</div>
 			</div>
 		);
+	}
+
+	componentDidMount() {
+		$(document).ready(function(){
+		  $('.owl-carousel').owlCarousel();
+		});
 	}
 }
 
