@@ -1,9 +1,14 @@
 import React from 'react'
-import $ from 'jquery'; 
-import './projectpage.css'
 import Mappify from './projects/mappify'
 import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel';
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import './projectpage.css'
+
+global.jQuery = require('jquery');
+var $ = global.jQuery;
+window.$ = $;
+let owl_carousel = require('owl.carousel');
+window.fn = owl_carousel;
 
 class ProjectPage extends React.Component {
 	constructor(props) {
@@ -36,11 +41,14 @@ class ProjectPage extends React.Component {
 	render() {
 		return(
 			<div id="projectpage">
-				<div id="button_left"></div>
-				<div id="button_right"></div>
+				<span class="arrowbtn arrowbtn-left"></span>
+				<span class="arrowbtn arrowbtn-right"></span>
 				<div class="slideshow" cur_slide="0">
-					<div class="owl-carousel">
+					<div class="owl-carousel owl-theme">
 						{this.renderProjects()}
+						<div class="item"><img src="http://placehold.it/2000x400/a21010/ffffff" alt="orange tree"/></div>
+					  <div class="item"><img src="http://placehold.it/2000x400/1096a2/ffffff" alt="orange tree"/></div>
+					  <div class="item"><img src="http://placehold.it/2000x400/a28c10/ffffff" alt="orange tree"/></div>
 					</div>
 					{this.renderdots()}
 				</div>
@@ -50,7 +58,18 @@ class ProjectPage extends React.Component {
 
 	componentDidMount() {
 		$(document).ready(function(){
-		  $('.owl-carousel').owlCarousel();
+		  $('.owl-carousel').owlCarousel({
+	      navigation : true,
+	      slideSpeed : 500,
+	   		paginationSpeed : 800,
+	    	rewindSpeed : 1000,
+	      singleItem:true,
+				autoPlay : true,
+	    	stopOnHover : true,
+	    	loop:true,
+    		items:1,
+    		dots:true,
+		  });
 		});
 	}
 }
