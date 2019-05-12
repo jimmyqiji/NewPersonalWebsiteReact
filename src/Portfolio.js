@@ -40,7 +40,7 @@ class Portfolio extends React.Component {
 function scrollToElement(selector) {
 	$('html,body').stop().animate({
     scrollTop: $(selector).offset().top
-  }, 250, 'swing');
+  }, 300, 'swing');
 }
 
 export default Portfolio;
