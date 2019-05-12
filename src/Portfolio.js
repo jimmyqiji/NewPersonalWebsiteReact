@@ -8,7 +8,7 @@ import FooterPage from './landing/footer'
 class Portfolio extends React.Component {
 	render() {
 		return(
-			<div>
+			<div id="portfolio">
 				<TitlePage />
 				<ProjectPage />
 				<FooterPage />
@@ -18,12 +18,12 @@ class Portfolio extends React.Component {
 
 	addOnScroll() {
 		let lastScrollTop = 0;
-		window.addEventListener("scroll", (event) => {
+		$(window).scroll(() => {
 			let st = $(window).scrollTop();
 			if(st < 50 && st > lastScrollTop){
 	      // downscroll code
 	      scrollToElement('#projectpage');
-	      st =  $(window).scrollTop();
+	      st = $(window).scrollTop();
 			}
 		  lastScrollTop = st;
 		  console.log(st);
@@ -31,6 +31,7 @@ class Portfolio extends React.Component {
 	}
 
 	componentDidMount() {
+		$(window).off('scroll');
 		this.addOnScroll();
 		$('#scrldown1 a').click(() => { scrollToElement('#projectpage') });
 	}

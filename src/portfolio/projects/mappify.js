@@ -7,7 +7,7 @@ class Mappify extends React.Component {
 			<div>
 				<div class="project" id="mappify"></div>
 				<div class="proj_desciption">
-					<h1>Mappify </h1>
+					<h1>Mappify</h1>
 				</div>
 			</div>
 		);

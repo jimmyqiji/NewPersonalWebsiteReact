@@ -19,6 +19,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    $(window).off('scroll');
     var nametop = document.getElementById("name").getBoundingClientRect().top;
     var resumetop = document.getElementById("resume").getBoundingClientRect().top;
     var portfoliotop = document.getElementById("portfolio").getBoundingClientRect().top;
