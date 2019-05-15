@@ -34,6 +34,13 @@
   border:1px solid #888;
 }
 
+.owl-dots {
+	position: absolute;
+	top: 75vh;
+	left: 50vw;
+	transform: translate(-50%, 0);
+}
+
 .arrowbtn {
   position: absolute;
   width: 60px;
