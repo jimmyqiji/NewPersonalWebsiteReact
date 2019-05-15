@@ -71,6 +71,14 @@ class ProjectPage extends React.Component {
     		dots:true,
 		  });
 		});
+		
+		let owl = $('.owl-carousel');
+		$('.arrowbtn-left').click(() => {
+			owl.trigger('prev.owl.carousel');
+		});
+		$('.arrowbtn-right').click(() => {
+			owl.trigger('next.owl.carousel');
+		});
 	}
 }
 
