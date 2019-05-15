@@ -1,5 +1,6 @@
 import React from 'react'
 import Mappify from './projects/mappify'
+import Vim from './projects/vim'
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import './projectpage.css'
@@ -14,7 +15,7 @@ class ProjectPage extends React.Component {
 	constructor(props) {
     super(props);
     this.state = {
-      projects: [<Mappify />]
+      projects: [<Mappify />, <Vim />]
     };
   }
 
