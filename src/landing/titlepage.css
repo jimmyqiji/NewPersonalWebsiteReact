@@ -63,7 +63,7 @@
 }
 
 #nonparallax {
-  background-image: url('../resources/keyart-mobile.jpg');
+  background-image: url('../resources/parallax/keyart-mobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -85,32 +85,32 @@
   position: fixed;
 }
   #keyart-0 {
-    background-image: url('../resources/parallax0.png');
+    background-image: url('../resources/parallax/parallax0.png');
     background-color: #ffaf1b;
   }
   #keyart-1 {
-    background-image: url('../resources/parallax1.png');
+    background-image: url('../resources/parallax/parallax1.png');
   }
   #keyart-2 {
-    background-image: url('../resources/parallax2.png');
+    background-image: url('../resources/parallax/parallax2.png');
   }
   #keyart-3 {
-    background-image: url('../resources/parallax3.png');
+    background-image: url('../resources/parallax/parallax3.png');
   }
   #keyart-4 {
-    background-image: url('../resources/parallax4.png');
+    background-image: url('../resources/parallax/parallax4.png');
   }
   #keyart-5 {
-    background-image: url('../resources/parallax5.png');
+    background-image: url('../resources/parallax/parallax5.png');
   }
   #keyart-6 {
-    background-image: url('../resources/parallax6.png');
+    background-image: url('../resources/parallax/parallax6.png');
   }
   #keyart-7 {
-    background-image: url('../resources/parallax7.png');
+    background-image: url('../resources/parallax/parallax7.png');
   }
   #keyart-8 {
-    background-image: url('../resources/parallax8.png');
+    background-image: url('../resources/parallax/parallax8.png');
   }
   #keyart-scrim {
     background-color: #ffaf00;

@@ -6,9 +6,9 @@ class FooterPage extends React.Component {
 		return(
 			<div id="footer">
 				<div id="social">
-					<a href="https://www.linkedin.com/in/jimmyqi"><img src={require("../resources/linkedin.png")} alt="linkedin link" /></a>
-					<a href="https://github.com/jimmyqiji"><img src={require("../resources/github.png")} alt="github link" /></a>
-					<a href="https://www.instagram.com/jimmyqiji/"><img src={require("../resources/instagram.png")} alt="instagram link" /></a>
+					<a href="https://www.linkedin.com/in/jimmyqi"><img src={require("../resources/media/linkedin.png")} alt="linkedin link" /></a>
+					<a href="https://github.com/jimmyqiji"><img src={require("../resources/media/github.png")} alt="github link" /></a>
+					<a href="https://www.instagram.com/jimmyqiji/"><img src={require("../resources/media/instagram.png")} alt="instagram link" /></a>
 				</div>
 				<div id="copyright">
 					<h2>JIMMY QI</h2>
