@@ -7,7 +7,7 @@ class Vim extends React.Component {
 			<div class="project" id="vim">
 				<div class="proj_img" />
 				<h1 class="proj_title">Vim</h1>
-				<div class="proj_desciption">
+				<div class="proj_description">
 				</div>
 			</div>
 		);
