@@ -4,10 +4,11 @@ import './mappify.css'
 class Mappify extends React.Component {
 	render() {
 		return(
-			<div>
-				<div class="project" id="mappify"></div>
+			<div class="project" id="mappify">
+				<div class="proj_img" />
+				<h1 class="proj_title">Mappify</h1>
 				<div class="proj_desciption">
-					<h1>Mappify</h1>
+					<p>Yo</p> 
 				</div>
 			</div>
 		);

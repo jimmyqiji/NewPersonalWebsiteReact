@@ -4,10 +4,10 @@ import './vim.css'
 class Vim extends React.Component {
 	render() {
 		return(
-			<div>
-				<div class="project" id="vim"></div>
+			<div class="project" id="vim">
+				<div class="proj_img" />
+				<h1 class="proj_title">Vim</h1>
 				<div class="proj_desciption">
-					<h1>Vim</h1>
 				</div>
 			</div>
 		);

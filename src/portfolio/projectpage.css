@@ -1,4 +1,4 @@
-.project {
+.proj_img {
 	width: 100%;
 	height: 80vh;
 	background-position: center top;
@@ -6,10 +6,14 @@
   background-size: cover;
 }
 
-.proj_desciption {
-	background-color: #eeeeee;
+.proj_title {
 	text-align: center;
-	font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive;
+  font-size: 8vh;
+}
+
+.proj_description {
+  height: 100vh;
 }
 
 #carousel .owl-item {
