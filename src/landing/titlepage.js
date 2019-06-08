@@ -8,10 +8,10 @@ class TitlePage extends React.Component {
 			<div>
 				<div class="titletext" id="name"><h1>JIMMY QI</h1></div>
 				<div id="links">
-					<div id="resume">
+					<div id="resume-btn">
 						<a href={require("../resources/resume.pdf")}><button type="button" class="brownbtn btn btn-outline-secondary">Resume</button></a>
 					</div>
-					<div id="portfolio">
+					<div id="portfolio-btn">
 						<Link to="/portfolio">
 							<button type="button" class="brownbtn btn btn-outline-secondary">Portfolio</button>
 						</Link>

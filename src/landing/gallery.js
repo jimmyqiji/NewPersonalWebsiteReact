@@ -14,11 +14,6 @@ class Tile extends React.Component {
 	}
 }
 
-// <div 
-// 				class="tile" 
-// 				image-src={"/src/resources/gallery/image" + this.props.value.toString()}
-// 			></div>
-
 class Gallery extends React.Component {
 	createImage = () => {
 		var tiles = [];
