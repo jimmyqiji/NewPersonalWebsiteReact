@@ -18,7 +18,7 @@
 
 #carousel .owl-item {
   display: block;
-  width: 100vw;
+  width: 100%;
   height: auto;
   cursor:grab;
   cursor:-webkit-grab;
@@ -41,7 +41,7 @@
 .owl-dots {
 	position: absolute;
 	top: 75vh;
-	left: 50vw;
+	left: 50%;
 	transform: translate(-50%, 0);
 }
 
