@@ -13,14 +13,15 @@
 
 #name h1{
   font-size: 6rem;
+  z-index: 50;
 }
 
 .titletext {
-  color: #210002;
+  color: black;
 }
 
 #links {
-  color: #210002;
+  color: black;
   position: fixed;
   top:40vh;
   text-align: center;
@@ -28,9 +29,9 @@
   transform: translateX(-50%);
 }
 
-.brownbtn {
-  color: #210002;
-  border-color: #210002;
+.black-btn {
+  color: black;
+  border-color: black;
   display: block;
   margin: auto;
   margin-top: 5vh;
@@ -41,17 +42,9 @@
 #links a {
   text-decoration: none;
 }
-.brownbtn:hover, .brownbtn:active, .brownbtn.active, .open {
-  background-color: #210002;
+.black-btn:hover, .black-btn:active, .black-btn.active, .open {
+  background-color: black;
 }
-
-/*.brownbtn:active {
-  box-shadow: none;
-}
-
-.brownbtn:active:focus {
-  background-color: #210002;
-}*/
 
 .keyart, .keyart_layer {
   height: 1000px;
@@ -114,6 +107,7 @@
   }
   #keyart-8 {
     background-image: url('../resources/parallax/parallax8.png');
+    z-index: 1000;
   }
   #keyart-scrim {
     background-color: #ffaf00;

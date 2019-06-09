@@ -9,11 +9,11 @@ class TitlePage extends React.Component {
 				<div class="titletext" id="name"><h1>JIMMY QI</h1></div>
 				<div id="links">
 					<div id="resume-btn">
-						<a href={require("../resources/resume.pdf")}><button type="button" class="brownbtn btn btn-outline-secondary">Resume</button></a>
+						<a href={require("../resources/resume.pdf")}><button type="button" class="black-btn btn btn-outline-secondary">Resume</button></a>
 					</div>
 					<div id="portfolio-btn">
 						<Link to="/portfolio">
-							<button type="button" class="brownbtn btn btn-outline-secondary">Portfolio</button>
+							<button type="button" class="black-btn btn btn-outline-secondary">Portfolio</button>
 						</Link>
 					</div>
 				</div>
