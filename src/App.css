@@ -1,3 +1,22 @@
 body {
   background-color: black;
 }
+
+.landing-section-title {
+  color: cornsilk;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.landing-section-title::after {
+  position: absolute;
+  background-color: #FFA538;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  width: 50%;
+}

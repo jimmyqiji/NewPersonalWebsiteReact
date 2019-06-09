@@ -5,6 +5,7 @@ class AboutPage extends React.Component {
 	render() {
 		return(
 			<div id="about">
+				<h1 class="landing-section-title">About Me</h1>
 				<div id="portrait"></div>
 				<div id="description">
 					<p>Hi, I'm a second year in the University of Waterloo pursuing a double major in Computer Science and Pure Mathematics.</p>

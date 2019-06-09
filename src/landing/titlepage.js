@@ -6,7 +6,7 @@ class TitlePage extends React.Component {
 	render() {
 		return (
 			<div>
-				<div class="titletext" id="name"><h1>JIMMY QI</h1></div>
+				<div class="titletext" id="name"><h1>Jimmy Qi</h1></div>
 				<div id="links">
 					<div id="resume-btn">
 						<a href={require("../resources/resume.pdf")}><button type="button" class="black-btn btn btn-outline-secondary">Resume</button></a>
