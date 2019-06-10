@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Mappify Brush';
+  src: url('resources/fonts/brush.eot'); /* IE9 Compat Modes */
+  src: url('resources/fonts/brush.woff') format('woff'), /* Modern Browsers */
+       url('resources/fonts/brush.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('resources/fonts/brush.svg') format('svg'); /* Legacy iOS */
+}
+
 body {
   background-color: black;
 }
@@ -5,6 +13,7 @@ body {
 .landing-section-title {
   color: cornsilk;
   margin: auto;
+  margin-top: 10%;
   text-align: center;
   position: relative;
 }
@@ -19,4 +28,8 @@ body {
   -webkit-transform: translate(-50%);
   transform: translate(-50%);
   width: 50%;
+}
+
+.fancy-font {
+  font-family: 'Mappify Brush';
 }
