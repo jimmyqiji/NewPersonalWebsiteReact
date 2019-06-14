@@ -20,10 +20,8 @@
 }
 
 #description {
-	/*position: absolute;*/
 	width: 50%;
 	left: 40%;
-	/*display: inline-block;*/
 	margin-left: 40%; margin-right: 10%;
 	margin-top: 10vh; margin-bottom: 10vh;
 }

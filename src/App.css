@@ -13,9 +13,10 @@ body {
 .landing-section-title {
   color: cornsilk;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 2%;
   text-align: center;
   position: relative;
+  font-size: 4rem;
 }
 
 .landing-section-title::after {
