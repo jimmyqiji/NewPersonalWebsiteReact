@@ -1,6 +1,7 @@
 import React from 'react';
 import $ from 'jquery'; 
 import './App.css';
+import Navbar from './landing/navbar'
 import TitlePage from './landing/titlepage'
 import AboutPage from './landing/aboutpage'
 import Gallery from './landing/gallery'
@@ -10,6 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="homepage">
+        <Navbar />
         <TitlePage />
         <AboutPage />
         <Gallery />

@@ -107,7 +107,6 @@
   }
   #keyart-8 {
     background-image: url('../resources/parallax/parallax8.png');
-    z-index: 1000;
   }
   #keyart-scrim {
     background-color: #ffaf00;
