@@ -7,6 +7,29 @@
 	flex-direction: column;
 }
 
+#about-title {
+	color: cornsilk;
+	font-family: Monaco,Consolas,Lucida Console,monospace;
+	margin: auto;
+	margin-top: 5%;
+	font-size: 2rem;
+}
+
+#about-title::before {
+	content: ">\A0";
+}
+
+#about-title::after {
+	content: "";
+	border-right: 0.5em solid;
+	animation: blink-caret 1.5s steps(1) infinite;
+}
+
+@keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: cornsilk; }
+}
+
 #portrait {
   background-image: url('../resources/portrait.png');
   background-repeat: no-repeat;

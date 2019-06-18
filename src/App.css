@@ -16,7 +16,7 @@ body {
   margin-top: 2%;
   text-align: center;
   position: relative;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .landing-section-title::after {
@@ -28,7 +28,7 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%);
   transform: translate(-50%);
-  width: 50%;
+  width: 30%;
 }
 
 .fancy-font {
