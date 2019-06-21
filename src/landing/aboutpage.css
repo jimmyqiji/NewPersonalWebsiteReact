@@ -5,13 +5,31 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
+	color: #5a5959;
+}
+
+#about-window {
+	width: 80%;
+	margin: auto 10% auto 10%;
+}
+
+#about-content-wrapper {
+	position: relative;
+	background-color: #F9DDB5;
+	border-radius: 6px;
+	border-radius: 0 0 6px 6px;
+	box-shadow: 0 50px 100px rgba(50,50,93,.15), 
+	0 15px 35px rgba(50,50,93,.2), 
+	0 5px 15px rgba(0,0,0,.12);
+	display: inline-block;
 }
 
 #about-title {
-	color: cornsilk;
+	position: relative;
+	color: #5a5959;
 	font-family: Monaco,Consolas,Lucida Console,monospace;
-	margin: auto;
 	margin-top: 5%;
+	text-align: center;
 	font-size: 2rem;
 }
 
@@ -27,7 +45,7 @@
 
 @keyframes blink-caret {
 	from, to { border-color: transparent }
-	50% { border-color: cornsilk; }
+	50% { border-color: #5a5959; }
 }
 
 #portrait {
@@ -50,7 +68,7 @@
 }
 #description p{
 	font-size: 17px;
-	color: white;
+	color: #5a5959;
 	word-wrap: break-word;
 }
 

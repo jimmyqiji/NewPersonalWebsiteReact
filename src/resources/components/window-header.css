@@ -1,0 +1,30 @@
+.window-header {
+    height: 28px;
+    background-color: #e4e3e5;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.window-header-btn-red {
+    background-color: #f96256;
+    border: 1px solid #f65549;
+}
+
+.window-header-btn-yellow {
+    background-color: #fdbc3d;
+    border: 1px solid #ffb524;
+}
+
+.window-header-btn-green {
+    background-color: #33c948;
+    border: 1px solid #2dbb41;
+}
+
+.window-header-btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 9px;
+}
