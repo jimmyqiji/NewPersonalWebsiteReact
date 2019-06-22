@@ -34,3 +34,24 @@ body {
 .fancy-font {
   font-family: 'Mappify Brush';
 }
+
+.background-cube {
+  position: fixed;
+  z-index: 10;
+  width: 110vw;
+  height: 110vw;
+}
+
+.background-cube.left {
+  transform: rotate(15deg);
+  transform-origin: top left;
+  background: #5a5959;
+  top: 120%;
+}
+
+.background-cube.right {
+  transform: rotate(-15deg);
+  transform-origin: top right;
+  background: #210002;
+  top: 250%;
+}

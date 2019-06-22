@@ -16,6 +16,8 @@ class App extends React.Component {
         <AboutPage />
         <Gallery />
         <FooterPage />
+        <div class="background-cube left cast-parallax" id="cube-left1" data-rotation="15" data-speed="70"></div>
+        <div class="background-cube right cast-parallax" id="cube-right1" data-rotation="-15" data-speed="70"></div>
       </div>
     );
   }

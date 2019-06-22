@@ -19,15 +19,15 @@ class TitlePage extends React.Component {
 				</div>
 				<div class="keyart" id="nonparallax"></div>
 				<div class="keyart" id="parallax">
-				  <div class="keyart_layer parallax" id="keyart-0" data-speed="2"></div>	
-				  <div class="keyart_layer parallax" id="keyart-1" data-speed="5"></div>
-				  <div class="keyart_layer parallax" id="keyart-2" data-speed="11"></div>	
-				  <div class="keyart_layer parallax" id="keyart-3" data-speed="16"></div>
-				  <div class="keyart_layer parallax" id="keyart-4" data-speed="26"></div>	
-				  <div class="keyart_layer parallax" id="keyart-5" data-speed="36"></div>
-				  <div class="keyart_layer parallax" id="keyart-6" data-speed="49"></div>	
+				  <div class="keyart_layer parallax cast-parallax" id="keyart-0" data-speed="2"></div>	
+				  <div class="keyart_layer parallax cast-parallax" id="keyart-1" data-speed="5"></div>
+				  <div class="keyart_layer parallax cast-parallax" id="keyart-2" data-speed="11"></div>	
+				  <div class="keyart_layer parallax cast-parallax" id="keyart-3" data-speed="16"></div>
+				  <div class="keyart_layer parallax cast-parallax" id="keyart-4" data-speed="26"></div>	
+				  <div class="keyart_layer parallax cast-parallax" id="keyart-5" data-speed="36"></div>
+				  <div class="keyart_layer parallax cast-parallax" id="keyart-6" data-speed="49"></div>	
 				  <div class="keyart_layer" id="keyart-scrim"></div>
-				  <div class="keyart_layer parallax" id="keyart-7" data-speed="69"></div>	
+				  <div class="keyart_layer parallax cast-parallax" id="keyart-7" data-speed="69"></div>	
 				  <div class="keyart_layer" id="keyart-8" data-speed="100"></div>
 				</div>
 			</div>
@@ -41,7 +41,7 @@ class TitlePage extends React.Component {
 function castParallax() {
 	window.addEventListener("scroll", function(event){
 		var top = this.pageYOffset;
-		var layers = document.getElementsByClassName("parallax");
+		var layers = document.getElementsByClassName("cast-parallax");
 		var layer, speed, yPos;
 		for (var i = 0; i < layers.length; i++) {
 			layer = layers[i];
@@ -49,9 +49,12 @@ function castParallax() {
 			yPos = -(top * speed / 100);
 			layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
 		}
+		let cubes = document.getElementsByClassName("background-cube");
+		for(let j = 0; j < cubes.length; j++) {
+			let cube = cubes[j];
+			cube.style.transform = cube.style.transform + ` rotate(${cube.getAttribute('data-rotation')}deg)`;
+		}
 	});
 }
-
-// document.body.onload = castParallax();
 
 export default TitlePage;

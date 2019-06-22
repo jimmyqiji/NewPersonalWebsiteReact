@@ -9,8 +9,11 @@
 }
 
 #about-window {
+	z-index: 50;
 	width: 80%;
-	margin: auto 10% auto 10%;
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 #about-content-wrapper {
