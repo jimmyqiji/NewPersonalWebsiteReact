@@ -6,7 +6,7 @@ class AboutPage extends React.Component {
 	render() {
 		return(
 			<div id="about">
-				<div id="about-window">
+				<div class="landing-foreground" id="about-window">
 					<WindowHeader id="about-content-header"/>
 					<div id="about-content-wrapper">
 						<h1 id="about-title">Greetings, my name is Jimmy</h1>

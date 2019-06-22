@@ -6,15 +6,17 @@ class TitlePage extends React.Component {
 	render() {
 		return (
 			<div>
-				<div class="titletext fancy-font" id="name"><h1>Jimmy Qi</h1></div>
-				<div id="links">
-					<div id="resume-btn">
-						<a href={require("../resources/resume.pdf")}><button type="button" class="black-btn btn btn-outline-secondary">Resume</button></a>
-					</div>
-					<div id="portfolio-btn">
-						<Link to="/portfolio">
-							<button type="button" class="black-btn btn btn-outline-secondary">Portfolio</button>
-						</Link>
+				<div class="landing-foreground">
+					<div class="titletext fancy-font" id="name"><h1>Jimmy Qi</h1></div>
+					<div id="links">
+						<div id="resume-btn">
+							<a href={require("../resources/resume.pdf")}><button type="button" class="black-btn btn btn-outline-secondary">Resume</button></a>
+						</div>
+						<div id="portfolio-btn">
+							<Link to="/portfolio">
+								<button type="button" class="black-btn btn btn-outline-secondary">Portfolio</button>
+							</Link>
+						</div>
 					</div>
 				</div>
 				<div class="keyart" id="nonparallax"></div>

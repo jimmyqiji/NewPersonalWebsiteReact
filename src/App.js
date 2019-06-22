@@ -5,6 +5,7 @@ import Navbar from './landing/navbar'
 import TitlePage from './landing/titlepage'
 import AboutPage from './landing/aboutpage'
 import Gallery from './landing/gallery'
+import Experience from './landing/experience'
 import FooterPage from './landing/footer'
 
 class App extends React.Component {
@@ -14,7 +15,8 @@ class App extends React.Component {
         <Navbar />
         <TitlePage />
         <AboutPage />
-        <Gallery />
+        {/* <Gallery /> */}
+        <Experience />
         <FooterPage />
         <div class="background-cube left cast-parallax" id="cube-left1" data-rotation="15" data-speed="70"></div>
         <div class="background-cube right cast-parallax" id="cube-right1" data-rotation="-15" data-speed="70"></div>

@@ -31,6 +31,10 @@ body {
   width: 30%;
 }
 
+.landing-foreground {
+  z-index: 50;
+}
+
 .fancy-font {
   font-family: 'Mappify Brush';
 }
@@ -45,13 +49,13 @@ body {
 .background-cube.left {
   transform: rotate(15deg);
   transform-origin: top left;
-  background: #5a5959;
+  background: #c7a07a;
   top: 120%;
 }
 
 .background-cube.right {
   transform: rotate(-15deg);
   transform-origin: top right;
-  background: #210002;
+  background: #5a5959;
   top: 250%;
 }
