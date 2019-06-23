@@ -1,0 +1,32 @@
+#landing-experience {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #555555;
+}
+
+.landing-experience-block {
+    width: 90%;
+    margin: 20px auto;
+    left: 50%;
+    border-radius: 6px;
+    background-color: #f9f2e4;
+    box-shadow: 0 50px 100px rgba(50,50,93,.15), 
+	0 15px 35px rgba(50,50,93,.2), 
+    0 5px 15px rgba(0,0,0,.12);
+    overflow: hidden;
+}
+
+/* .landing-experience-block > * {
+    display: block;
+} */
+
+.exp-job-title {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.exp-company {
+    text-align: center;
+}

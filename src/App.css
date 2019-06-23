@@ -8,27 +8,28 @@
 
 body {
   background-color: black;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .landing-section-title {
-  color: cornsilk;
-  margin: auto;
-  margin-top: 2%;
+  color: #472F16;
+  margin: 50px auto;
   text-align: center;
   position: relative;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 .landing-section-title::after {
   position: absolute;
-  background-color: #FFA538;
+  background-color: #F9DDB5;
   content: "";
   display: block;
-  height: 3px;
+  height: 6px;
   left: 50%;
   -webkit-transform: translate(-50%);
   transform: translate(-50%);
-  width: 30%;
+  width: 20%;
 }
 
 .landing-foreground {
