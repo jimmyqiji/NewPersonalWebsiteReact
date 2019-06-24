@@ -57,6 +57,6 @@ body {
 .background-cube.right {
   transform: rotate(-15deg);
   transform-origin: top right;
-  background: #5a5959;
+  background: #c7a07a;
   top: 250%;
 }

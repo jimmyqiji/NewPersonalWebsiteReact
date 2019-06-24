@@ -10,7 +10,6 @@
     width: 90%;
     margin: 20px auto;
     left: 50%;
-    border-radius: 6px;
     background-color: #f9f2e4;
     box-shadow: 0 50px 100px rgba(50,50,93,.15), 
 	0 15px 35px rgba(50,50,93,.2), 
@@ -18,15 +17,40 @@
     overflow: hidden;
 }
 
-/* .landing-experience-block > * {
-    display: block;
-} */
+.exp-company-body {
+    margin: 10px;
+}
 
-.exp-job-title {
+.landing-experience-block .exp-company {
     text-align: center;
     margin: 10px auto;
 }
 
-.exp-company {
-    text-align: center;
+.landing-experience-block .exp-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    margin: 0px 5%;
+}
+
+.landing-experience-block .exp-company-description {
+    display: inline-block;
+    width: 55%;
+}
+
+.landing-experience-block .exp-job-title {
+    margin: 0px;
+}
+
+.landing-experience-block .exp-duration {
+    font-size: 0.9rem;
+}
+
+#exp-londonlife {
+    background-color: #403d3d;
+    color: #d3d5d7;
+}
+
+#exp-londonlife .exp-company {
+    color: #f3f3f3;
 }
