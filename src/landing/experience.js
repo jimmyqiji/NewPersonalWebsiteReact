@@ -7,6 +7,7 @@ class Experience extends React.Component {
             <div id="landing-experience">
                 <div class="landing-foreground">
                     <h3 class="landing-section-title">Work Experience</h3>
+                        <Hubdoc />
                         <LondonLife />
                 </div>
             </div>
@@ -14,15 +15,38 @@ class Experience extends React.Component {
 	}
 }
 
+class Hubdoc extends React.Component {
+    render() {
+        return(
+            <div id="exp-hubdoc" class="landing-experience-block">
+                <h4 class="exp-company exp-color">Hubdoc - A Xero Partner</h4>
+                <div class="exp-company-body">
+                    <img class="exp-logo" src={require('../companies/hubdoc.png')} />
+                    <div class="exp-company-description">
+                        <h5 class="exp-job-title exp-color">Software Developer</h5>
+                        <h6 class="exp-duration"><i>May 2019 - Aug 2019 Toronto, ON.</i></h6>
+                        <div class="exp-details-list">
+                            <ul>
+                                <li>Hubdoc gathers and extracts receipts, invoices, and bills, etc. and extracts key information from it, providing a centralized place for all documents which is useful for accounting purposes.</li>
+                                <li>I utilized various headless browsers, APIs, http requests to construct scripts that fetches documents automatically for hundreds of users.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+}
+
 class LondonLife extends React.Component {
     render() {
         return(
             <div id="exp-londonlife" class="landing-experience-block">
-                <h4 class="exp-company">London Life Insurance Company</h4>
+                <h4 class="exp-company exp-color">London Life Insurance Company</h4>
                 <div class="exp-company-body">
                     <img class="exp-logo" src={require('../companies/londonlife.png')} />
                     <div class="exp-company-description">
-                        <h5 class="exp-job-title">Actuarial Student</h5>
+                        <h5 class="exp-job-title exp-color">Actuarial Student</h5>
                         <h6 class="exp-duration"><i>May 2018 - Aug 2018 London, ON.</i></h6>
                         <div class="exp-details-list">
                             <ul>

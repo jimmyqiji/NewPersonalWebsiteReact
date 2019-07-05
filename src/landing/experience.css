@@ -44,6 +44,16 @@
 
 .landing-experience-block .exp-duration {
     font-size: 0.9rem;
+    margin: 5px 0px;
+}
+
+#exp-hubdoc {
+    background-color: #d4cac2;
+    color: #111111;
+}
+
+#exp-hubdoc .exp-color {
+    color: #17365f;
 }
 
 #exp-londonlife {
@@ -51,6 +61,6 @@
     color: #d3d5d7;
 }
 
-#exp-londonlife .exp-company {
+#exp-londonlife .exp-color {
     color: #f3f3f3;
 }
