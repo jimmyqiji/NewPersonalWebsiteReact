@@ -19,6 +19,8 @@
 
 .exp-company-body {
     margin: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .landing-experience-block .exp-company {
@@ -27,10 +29,8 @@
 }
 
 .landing-experience-block .exp-logo {
-    display: inline-block;
-    vertical-align: middle;
     width: 30%;
-    margin: 0px 5%;
+    margin: auto 5%;
 }
 
 .landing-experience-block .exp-company-description {
