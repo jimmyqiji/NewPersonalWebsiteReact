@@ -4,17 +4,38 @@ import './footer.css'
 class FooterPage extends React.Component {
 	render() {
 		return(
-			<div id="footer">
-				<div id="social">
-					<a href="https://www.linkedin.com/in/jimmyqi"><img src={require("../resources/media/linkedin.png")} alt="linkedin link" /></a>
-					<a href="https://github.com/jimmyqiji"><img src={require("../resources/media/github.png")} alt="github link" /></a>
-					<a href="https://www.instagram.com/jimmyqiji/"><img src={require("../resources/media/instagram.png")} alt="instagram link" /></a>
-				</div>
-				<div id="copyright">
-					<h2>JIMMY QI</h2>
-					<p>Copyright © 2019</p>
-					<p>All rights reserved</p>
-					<p>Landing parallax image belongs to ©2019 Campo Santo</p>
+			<div id="footer" class="landing-foreground">
+				<div id="footer-body" class="landing-foreground">
+					<div id="social">
+					  <ul id="buttons">
+              <li class="gh">
+                <a href="https://github.com/jimmyqiji" title="Github">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="fb">
+                <a href="#facebook" title="Facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="tw">
+                <a href="https://www.linkedin.com/in/jimmyqi" title="Linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="in">
+                <a href="https://www.instagram.com/jimmyqiji/" title="Instagram" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+						</ul>
+					</div>
+					<div id="copyright">
+						<h2>JIMMY QI</h2>
+						<p>Copyright © 2019</p>
+						<p>All rights reserved</p>
+						<p>Landing parallax image belongs to ©2019 Campo Santo</p>
+					</div>
 				</div>
 			</div>
 		);
