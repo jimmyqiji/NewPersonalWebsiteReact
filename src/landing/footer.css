@@ -1,5 +1,5 @@
 #footer {
-	background-color: white;
+	background-color: #f9ddb5;
 	text-align: center;
 	position: relative;
 }
@@ -19,7 +19,11 @@
 }
 
 #copyright {
-	color: #d3d3d3;
+	color: #5a5959;
+}
+
+#copyright h2 {
+	font-family: 'Mappify Brush';
 }
 
 #copyright p {
@@ -33,25 +37,22 @@
 }
 
 .fb a, .fb:before, .fb { background: #3b5999; color: #3b5999; }
-.tw a, .tw:before, .tw { background: #55acee; color: #55acee; }
+.lin a, .lin:before, .lin { background: #55acee; color: #55acee; }
 .in a, .in:before, .in { background: #e4405f; color: #e4405f; }
 .gh a, .gh:before, .gh { background: #333333; color: #333333; }
 
-ul#buttons {
+#footer ul#buttons {
 	padding: 0;
-	margin: 0;
-	position: absolute;
+	margin: 5% 0;
+	width: 100;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
-	list-style: none;
-	display: grid;
-	grid-template-columns: repeat(4,1fr);
-	grid-gap: 10px;
 }
 
 
-ul#buttons li {
+#footer ul#buttons li {
+	display: inline-block;
+	margin: 0 10px;
 	width: 60px;
 	height: 60px;
 	line-height: 60px;
@@ -62,11 +63,10 @@ ul#buttons li {
 	position: relative;
 	overflow: hidden;
 	transition: .5s;
-	box-shadow: 0px 8px 16px -6px,
-				0px 0px 16px -6px;
+	box-shadow: 6px 6px 4px -2px;
 }
 
-ul#buttons li a {
+#footer ul#buttons li a {
 	display: block;
 	widows: 100%;
 	height: 100%;
@@ -77,7 +77,7 @@ ul#buttons li a {
 	animation-timing-function: cubic-bezier(0.5, -0.6, 1, 1);
 }
 
-ul#buttons li:before {
+#footer ul#buttons li:before {
 	content: "";
 	width: 90px;
 	height: 90px;
@@ -89,12 +89,12 @@ ul#buttons li:before {
 	animation-timing-function: cubic-bezier(0.5, -0.6, 1, 1);
 }
 
-ul#buttons li:hover a {
+#footer ul#buttons li:hover a {
 	animation: icon-in .5s forwards;
 	animation-timing-function: cubic-bezier(0, 0, 0.4, 1.6);
 }
 
-ul#buttons li:hover:before { 
+#footer ul#buttons li:hover:before { 
 	animation: back-in .5s forwards;
 	animation-timing-function: cubic-bezier(0, 0, 0.4, 1.6);
 }
@@ -113,12 +113,10 @@ ul#buttons li:hover:before {
 
 @keyframes icon-in {
     0% { font-size: 1.25em; }
-	80% { color: #fff; font-size: 1.5em; }
-	100% { color: #fff; font-size: 1.35em; }
+	100% { color: #fff; font-size: 1.5em; }
 }
 
 @keyframes icon-out {
-	0% { color: #fff; font-size: 1.35em; }
-	20% { color: #fff; font-size: 1.5em; }
+	0% { color: #fff; font-size: 1.5em; }
 	100% { font-size: 1.25em; }
 }

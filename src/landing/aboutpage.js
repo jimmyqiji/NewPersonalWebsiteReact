@@ -9,7 +9,7 @@ class AboutPage extends React.Component {
 				<div class="landing-foreground" id="about-window">
 					<WindowHeader id="about-content-header"/>
 					<div id="about-content-wrapper">
-						<h1 id="about-title">Greetings, my name is Jimmy</h1>
+						<h1 id="about-title">Who am I?</h1>
 						<div id="portrait"></div>
 						<div id="about-description">
 							<p>I came to Canada when I was grade 5, since then, I've lived in Vancouver. Growing up there, I had lots and lots of salmon and I absolutely loved it.</p>

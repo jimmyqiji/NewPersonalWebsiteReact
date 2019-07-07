@@ -5,8 +5,8 @@ class Experience extends React.Component {
 	render() {
 		return(
             <div id="landing-experience">
-                <div class="landing-foreground">
-                    <h3 class="landing-section-title">Work Experience</h3>
+                <div id="landing-exp-body" class="landing-foreground">
+                    <h3 class="landing-section-title">What I did.</h3>
                         <Hubdoc />
                         <LondonLife />
                 </div>

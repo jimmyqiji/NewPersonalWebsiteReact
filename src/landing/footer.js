@@ -14,11 +14,11 @@ class FooterPage extends React.Component {
                 </a>
               </li>
               <li class="fb">
-                <a href="#facebook" title="Facebook">
+                <a href="https://www.facebook.com/jimmy.qi.39" title="Facebook">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
-              <li class="tw">
+              <li class="lin">
                 <a href="https://www.linkedin.com/in/jimmyqi" title="Linkedin">
                   <i class="fab fa-linkedin-in"></i>
                 </a>

@@ -6,6 +6,20 @@
     color: #555555;
 }
 
+#landing-experience .landing-section-title {
+    padding: 20px;
+    background-color:#e4d6c3;
+    color: #5a1415;
+}
+
+#landing-experience .landing-section-title::after {
+    background-color: tan;
+}
+
+#landing-exp-body {
+    margin-bottom: 10%;
+}
+
 .landing-experience-block {
     width: 90%;
     margin: 20px auto;

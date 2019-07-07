@@ -11,12 +11,12 @@
     position: relative;
 }
 
-.nav-item p {
+.nav-item a {
     vertical-align: middle;
     margin: 0;
 }
 
-.nav-item p::before, .nav-item p::after {
+.nav-item a::before, .nav-item a::after {
     position: absolute;
     display: block;
     content: '';
@@ -26,16 +26,16 @@
     transition: all 0.3s ease;
 }
 
-.nav-item p::before {
+.nav-item a::before {
     left: 0;
     top: 0;
 }
 
-.nav-item p::after {
+.nav-item a::after {
     right: 0;
     bottom: 0;
 }
 
-.nav-item p:hover::before, .nav-item p:hover::after {
+.nav-item a:hover::before, .nav-item a:hover::after {
     width: 100%;
 }

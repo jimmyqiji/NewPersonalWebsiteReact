@@ -11,11 +11,11 @@ class Navbar extends React.Component {
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <p>Home</p>
+                            <a>Home</a>
                             <span />
                         </li>
-                        <li class="nav-item"><p>About Me</p></li>
-                        <li class="nav-item"><p>Experience</p></li>
+                        <li class="nav-item"><a>About Me</a></li>
+                        <li class="nav-item"><a>Experience</a></li>
                     </ul>
                 </div>
                 <a class="navbar-brand" href="#">
