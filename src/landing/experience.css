@@ -1,4 +1,4 @@
-#landing-experience {
+#landing-experience-page {
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -6,13 +6,13 @@
     color: #555555;
 }
 
-#landing-experience .landing-section-title {
+#landing-experience-page .landing-section-title {
     padding: 20px;
     background-color:#f9ddb5;
     color: #5a1415;
 }
 
-#landing-experience .landing-section-title::after {
+#landing-experience-page .landing-section-title::after {
     background-color: tan;
 }
 

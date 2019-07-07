@@ -5,7 +5,7 @@ import './titlepage.css'
 class TitlePage extends React.Component {
 	render() {
 		return (
-			<div>
+			<div id="landing-title-page">
 				<div class="landing-foreground">
 					<div class="titletext fancy-font" id="name"><h1>Jimmy Qi</h1></div>
 					<div id="links">

@@ -10,12 +10,10 @@ class Navbar extends React.Component {
                 </button>
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a>Home</a>
-                            <span />
-                        </li>
-                        <li class="nav-item"><a>About Me</a></li>
-                        <li class="nav-item"><a>Experience</a></li>
+                        <li class="nav-item" data-scrollto="#landing-title-page"><a>Home</a></li>
+                        <li class="nav-item" data-scrollto="#landing-about-page"><a>About Me</a></li>
+                        <li class="nav-item" data-scrollto="#landing-experience-page"><a>Experience</a></li>
+                        <li class="nav-item" data-scrollto="#landing-contacts-page"><a>Contacts</a></li>
                     </ul>
                 </div>
                 <a class="navbar-brand" href="#">

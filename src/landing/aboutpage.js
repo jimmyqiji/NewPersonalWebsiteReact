@@ -5,7 +5,7 @@ import './aboutpage.css';
 class AboutPage extends React.Component {
 	render() {
 		return(
-			<div id="about">
+			<div id="landing-about-page">
 				<div class="landing-foreground" id="about-window">
 					<WindowHeader id="about-content-header"/>
 					<div id="about-content-wrapper">

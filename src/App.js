@@ -4,7 +4,6 @@ import './App.css';
 import Navbar from './landing/navbar'
 import TitlePage from './landing/titlepage'
 import AboutPage from './landing/aboutpage'
-import Gallery from './landing/gallery'
 import Experience from './landing/experience'
 import FooterPage from './landing/footer'
 import Contacts from './landing/contacts'
@@ -30,7 +29,7 @@ class App extends React.Component {
     var nametop = document.getElementById("name").getBoundingClientRect().top;
     var resumetop = document.getElementById("resume-btn").getBoundingClientRect().top;
     var portfoliotop = document.getElementById("portfolio-btn").getBoundingClientRect().top;
-    var abouttop = $("#about").offset().top;
+    var abouttop = $("#landing-about-page").offset().top;
     $(window).scroll(function() {
       if($(window).scrollTop() + nametop < abouttop) { 
         $("#name").show(); //reached the desired point -- show div
@@ -51,6 +50,14 @@ class App extends React.Component {
         $("#portfolio").hide();
       }
     });
+
+    $("#navbar .nav-item").map((index, element) => {
+      $(element).click(function() {
+        $([document.documentElement, document.body]).animate({
+          scrollTop: $($(element).attr('data-scrollto')).offset().top
+        }, 700);
+      });
+    })
   }
 }
 

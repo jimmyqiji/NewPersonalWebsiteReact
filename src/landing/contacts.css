@@ -1,4 +1,4 @@
-#contacts-page {
+#landing-contacts-page {
     background-color: #f9ddb5;
     color: #5a5959;
     position: relative;
@@ -6,25 +6,25 @@
     text-align: center;
 }
 
-#contacts-page #contacts-title {
+#landing-contacts-page #contacts-title {
     position: relative;
     margin-top: 0;
     padding-top: 5%;
     color: #210002;
 }
-#contacts-page #contacts-title::after {
+#landing-contacts-page #contacts-title::after {
     background-color: #cb8686;
 }
 
-#contacts-page .section-description {
+#landing-contacts-page .section-description {
     font-size: 1.75rem;
 }
 
-#contacts-page #send-email-btn {
+#landing-contacts-page #send-email-btn {
     text-align: center;
 }
 
-#contacts-page .btn-svg {
+#landing-contacts-page .btn-svg {
 	position: relative;
 	display: inline-block;
 	text-align: center;
@@ -42,14 +42,14 @@
 	
 }
 
-#contacts-page .btn-svg svg {
+#landing-contacts-page .btn-svg svg {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 }
-#contacts-page .btn-svg svg rect {
+#landing-contacts-page .btn-svg svg rect {
 	stroke: #621558;
 	stroke-width: 2;
 	stroke-dasharray: 300px,16px;
@@ -57,14 +57,14 @@
 	-webkit-transition: all 400ms ease;
 	transition: all 400ms ease;
 }
-#contacts-page .btn-svg:hover svg rect {
+#landing-contacts-page .btn-svg:hover svg rect {
 	stroke-dashoffset: 284px;
 }
-#contacts-page .btn-svg span {
+#landing-contacts-page .btn-svg span {
 	color: #621558;
 }
-#contacts-page a:hover, #contacts-page a:focus {text-decoration:none;}
+#landing-contacts-page a:hover, #landing-contacts-page a:focus {text-decoration:none;}
 
-#contacts-page .fas {
+#landing-contacts-page .fas {
     padding-right: 4px;
 }
