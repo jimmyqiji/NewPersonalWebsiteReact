@@ -3,6 +3,7 @@
     color: #5a5959;
     position: relative;
     display: block;
+    text-align: center;
 }
 
 #contacts-page #contacts-title {
@@ -13,6 +14,10 @@
 }
 #contacts-page #contacts-title::after {
     background-color: #cb8686;
+}
+
+#contacts-page .section-description {
+    font-size: 1.75rem;
 }
 
 #contacts-page #send-email-btn {
@@ -59,3 +64,7 @@
 	color: #621558;
 }
 #contacts-page a:hover, #contacts-page a:focus {text-decoration:none;}
+
+#contacts-page .fas {
+    padding-right: 4px;
+}
