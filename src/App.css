@@ -43,8 +43,8 @@ body {
 .background-cube {
   position: fixed;
   z-index: 10;
-  width: 110vw;
-  height: 110vw;
+  width: 250vw;
+  height: 250vw;
 }
 
 .background-cube.left {

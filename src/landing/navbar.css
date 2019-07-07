@@ -3,12 +3,16 @@
     width: 100%;
     background-color: #F7BC6A;
     z-index: 1000;
-    border-bottom: 1px solid #210002;
 }
 
 .nav-item {
     margin: 0px 10px;
     position: relative;
+    cursor: pointer;
+}
+
+#navbar .navbar-brand {
+    cursor: pointer;
 }
 
 .nav-item a {

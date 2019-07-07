@@ -6,7 +6,7 @@ class Experience extends React.Component {
 		return(
             <div id="landing-experience-page">
                 <div id="landing-exp-body" class="landing-foreground">
-                    <h3 class="landing-section-title">What I did.</h3>
+                    <span class="landing-section-title">What I did.</span>
                         <Hubdoc />
                         <LondonLife />
                 </div>

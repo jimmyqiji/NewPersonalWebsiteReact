@@ -18,8 +18,8 @@ class App extends React.Component {
         <Experience />
         <Contacts />
         <FooterPage />
-        <div class="background-cube left cast-parallax" id="cube-left1" data-rotation="15" data-speed="70"></div>
-        <div class="background-cube right cast-parallax" id="cube-right1" data-rotation="-15" data-speed="70"></div>
+        <div class="background-cube left cast-parallax" id="cube-left1" data-rotation="15" data-speed="60"></div>
+        <div class="background-cube right cast-parallax" id="cube-right1" data-rotation="-15" data-speed="60"></div>
       </div>
     );
   }
@@ -32,26 +32,26 @@ class App extends React.Component {
     var abouttop = $("#landing-about-page").offset().top;
     $(window).scroll(function() {
       if($(window).scrollTop() + nametop < abouttop) { 
-        $("#name").show(); //reached the desired point -- show div
+        $("#landing-title-page #name").show(); //reached the desired point -- show div
       }
       else {
-        $("#name").hide();
+        $("#landing-title-page #name").hide();
       }
       if($(window).scrollTop() + resumetop < abouttop) { 
-        $("#resume").show(); //reached the desired point -- show div
+        $("#landing-title-page #resume-btn").show(); //reached the desired point -- show div
       }
       else {
-        $("#resume").hide();
+        $("#landing-title-page #resume-btn").hide();
       }
       if($(window).scrollTop() + portfoliotop < abouttop) { 
-        $("#portfolio").show(); //reached the desired point -- show div
+        $("#landing-title-page #portfolio-btn").show(); //reached the desired point -- show div
       }
       else {
-        $("#portfolio").hide();
+        $("#landing-title-page #portfolio-btn").hide();
       }
     });
 
-    $("#navbar .nav-item").map((index, element) => {
+    $('#navbar [data-scrollto]').map((index, element) => {
       $(element).click(function() {
         $([document.documentElement, document.body]).animate({
           scrollTop: $($(element).attr('data-scrollto')).offset().top

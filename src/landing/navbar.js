@@ -16,7 +16,7 @@ class Navbar extends React.Component {
                         <li class="nav-item" data-scrollto="#landing-contacts-page"><a>Contacts</a></li>
                     </ul>
                 </div>
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" data-scrollto="#landing-title-page">
                     <img src={require('../resources/home.png')} />
                 </a>
             </nav>
