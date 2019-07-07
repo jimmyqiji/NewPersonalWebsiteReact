@@ -1,5 +1,5 @@
 import React from 'react';
-import $ from 'jquery'; 
+import $ from 'jquery';
 import './App.css';
 import Navbar from './landing/navbar'
 import TitlePage from './landing/titlepage'
@@ -11,15 +11,15 @@ import Contacts from './landing/contacts'
 class App extends React.Component {
   render() {
     return (
-      <div id="homepage">
+      <div id="homepage" >
         <Navbar />
         <TitlePage />
         <AboutPage />
         <Experience />
         <Contacts />
         <FooterPage />
-        <div class="background-cube left cast-parallax" id="cube-left1" data-rotation="15" data-speed="60"></div>
-        <div class="background-cube right cast-parallax" id="cube-right1" data-rotation="-15" data-speed="60"></div>
+        <div class="background-cube left cast-parallax" id="cube-left1" data-rotation="15" data-speed="65"></div>
+        <div class="background-cube right cast-parallax" id="cube-right1" data-rotation="-15" data-speed="65"></div>
       </div>
     );
   }
@@ -57,7 +57,7 @@ class App extends React.Component {
           scrollTop: $($(element).attr('data-scrollto')).offset().top
         }, 700);
       });
-    })
+    });
   }
 }
 
