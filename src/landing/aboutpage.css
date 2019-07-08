@@ -12,8 +12,8 @@
 	z-index: 50;
 	width: 80%;
 	margin: auto;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 #about-content-wrapper {
@@ -76,10 +76,13 @@
 	word-wrap: break-word;
 }
 
-@media screen and (max-width: 600px){ 
+@media screen and (max-width: 575px){ 
 
 #landing-about-page {
+	position: relative;
 	display: block;
+	z-index: 50;
+	background-color: #c7a07a;
 }
 
 #portrait {
@@ -89,7 +92,7 @@
 #about-description {
 	width: 80%;
 	margin: auto;
-	margin-top: 50%;
+	margin-top: 10%;
 }
 
 }
