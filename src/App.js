@@ -24,31 +24,31 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    $(window).off('scroll');
-    var nametop = document.getElementById("name").getBoundingClientRect().top;
-    var resumetop = document.getElementById("resume-btn").getBoundingClientRect().top;
-    var portfoliotop = document.getElementById("portfolio-btn").getBoundingClientRect().top;
-    var abouttop = $("#landing-about-page").offset().top;
-    $(window).scroll(function() {
-      if($(window).scrollTop() + nametop < abouttop) { 
-        $("#landing-title-page #name").show(); //reached the desired point -- show div
-      }
-      else {
-        $("#landing-title-page #name").hide();
-      }
-      if($(window).scrollTop() + resumetop < abouttop) { 
-        $("#landing-title-page #resume-btn").show(); //reached the desired point -- show div
-      }
-      else {
-        $("#landing-title-page #resume-btn").hide();
-      }
-      if($(window).scrollTop() + portfoliotop < abouttop) { 
-        $("#landing-title-page #portfolio-btn").show(); //reached the desired point -- show div
-      }
-      else {
-        $("#landing-title-page #portfolio-btn").hide();
-      }
-    });
+  //   $(window).off('scroll');
+  //   var nametop = document.getElementById("name").getBoundingClientRect().top;
+  //   var resumetop = document.getElementById("resume-btn").getBoundingClientRect().top;
+  //   var portfoliotop = document.getElementById("portfolio-btn").getBoundingClientRect().top;
+  //   var abouttop = $("#landing-about-page").offset().top;
+  //   $(window).scroll(function() {
+  //     if($(window).scrollTop() + nametop < abouttop) { 
+  //       $("#landing-title-page #name").show(); //reached the desired point -- show div
+  //     }
+  //     else {
+  //       $("#landing-title-page #name").hide();
+  //     }
+  //     if($(window).scrollTop() + resumetop < abouttop) { 
+  //       $("#landing-title-page #resume-btn").show(); //reached the desired point -- show div
+  //     }
+  //     else {
+  //       $("#landing-title-page #resume-btn").hide();
+  //     }
+  //     if($(window).scrollTop() + portfoliotop < abouttop) { 
+  //       $("#landing-title-page #portfolio-btn").show(); //reached the desired point -- show div
+  //     }
+  //     else {
+  //       $("#landing-title-page #portfolio-btn").hide();
+  //     }
+  //   });
 
     $('#navbar [data-scrollto]').map((index, element) => {
       $(element).click(function() {

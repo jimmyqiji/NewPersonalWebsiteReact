@@ -4,16 +4,17 @@
   margin: -5px;
 }
 
-#name {
-  width: 100%;
-  position: fixed;
-  text-align: center;
-  top: 20vh;
+#landing-title-page {
+  position: relative;
 }
 
-#name h1{
+#name {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 20vh;
   font-size: 6rem;
-  z-index: 50;
+  z-index: -5;
 }
 
 .titletext {
@@ -22,7 +23,8 @@
 
 #links {
   color: black;
-  position: fixed;
+  position: absolute;
+  z-index: -5;
   top:40vh;
   text-align: center;
   left: 50%;
@@ -123,7 +125,7 @@
   #parallax {
     display: none;
   }
-  #name h1{
+  #name span{
     font-size: 2rem;
   }
 }
