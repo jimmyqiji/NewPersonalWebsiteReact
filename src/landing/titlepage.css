@@ -53,6 +53,8 @@
 
 #parallax {
   display: block;
+  width: 120%;
+  left: -10%;
 }
 
 #nonparallax {

@@ -9,6 +9,7 @@
 body {
   background-color: black;
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .landing-section-title {
@@ -41,21 +42,20 @@ body {
 }
 
 .background-cube {
-  position: fixed;
+  position: absolute;
   z-index: 10;
-  width: 250vw;
-  height: 250vw;
+  width: 150vw;
+  height: 150vw;
 }
 
 .background-cube.left {
   transform: rotate(15deg);
   transform-origin: top left;
   background: #c7a07a;
-  top: 135%;
+  top: 175%;
 }
 
 .background-cube.right {
-  display: none;
   transform: rotate(-15deg);
   transform-origin: top right;
   background: #c7a07a;

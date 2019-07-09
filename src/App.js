@@ -19,7 +19,6 @@ class App extends React.Component {
         <Contacts />
         <FooterPage />
         <div class="background-cube left cast-parallax" id="cube-left1" data-rotation="15" data-speed="65"></div>
-        <div class="background-cube right cast-parallax" id="cube-right1" data-rotation="-15" data-speed="65"></div>
       </div>
     );
   }
