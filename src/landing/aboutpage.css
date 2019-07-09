@@ -16,6 +16,23 @@
 	padding-bottom: 10%;
 }
 
+#about-window::before {
+	position: absolute;
+	background: #c7a07a;
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	right: 0;
+	top: 50%;
+	z-index: -1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: skewY(15deg);
+			transform: skewY(15deg);
+	-webkit-transform-origin: 100% 0;
+			transform-origin: 100% 0;
+  }
+
 #about-content-wrapper {
 	position: relative;
 	background-color: #F9DDB5;
