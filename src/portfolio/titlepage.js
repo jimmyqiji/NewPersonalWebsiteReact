@@ -7,7 +7,7 @@ class TitlePage extends React.Component {
 		return(
 			<div id="port-title-page">
 				<div id="homebtn">
-					<Link to="/">
+					<Link to="/" style={{ textDecoration: 'none' }}>
 						<button type="button" class="whitebtn btn btn-outline-secondary">Home</button>
 					</Link>
 				</div>
@@ -16,7 +16,7 @@ class TitlePage extends React.Component {
 					<div><h2>A Collection of Projects</h2></div>
 				</div>
 				<div id="port-scrldown1" class="port-scrldown clearfix">
-					<a scrlto="#projectpage"><span></span>Scroll</a>
+					<a scrlto="#projectpage"><span></span></a>
 				</div>
 			</div>
 		);

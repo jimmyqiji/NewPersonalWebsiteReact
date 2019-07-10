@@ -30,9 +30,7 @@ class Portfolio extends React.Component {
 	}
 
 	componentDidMount() {
-		$(window).off('scroll');
-		this.addOnScroll();
-		$('#scrldown1 a').click(() => { scrollToElement('#projectpage') });
+		$('#port-scrldown1 a').click(() => { scrollToElement('#projectpage') });
 	}
 }
 
