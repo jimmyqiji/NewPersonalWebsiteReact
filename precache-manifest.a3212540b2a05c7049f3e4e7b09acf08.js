@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/NewPersonalWebsiteReact/static/media/parallax1.70af3068.png"
   },
   {
-    "revision": "d57cc18374aed003ee19",
+    "revision": "b5c90029e38c25ae8902",
     "url": "/NewPersonalWebsiteReact/static/css/main.b02dd822.chunk.css"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/NewPersonalWebsiteReact/static/media/parallax6.630f81ff.png"
   },
   {
-    "revision": "d57cc18374aed003ee19",
-    "url": "/NewPersonalWebsiteReact/static/js/main.d57cc183.chunk.js"
+    "revision": "b5c90029e38c25ae8902",
+    "url": "/NewPersonalWebsiteReact/static/js/main.b5c90029.chunk.js"
   },
   {
     "revision": "b555e24e2e300370ba0b8367f6ddc6f8",
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/NewPersonalWebsiteReact/static/media/keyart-mobile.33cc3e36.jpg"
   },
   {
-    "revision": "6b3efa1f3146bb8e0d5324692e12860d",
-    "url": "/NewPersonalWebsiteReact/static/media/parallax0.6b3efa1f.png"
-  },
-  {
     "revision": "3141a1e293960b4c83ecd2bc646138a4",
     "url": "/NewPersonalWebsiteReact/static/media/parallax3.3141a1e2.png"
+  },
+  {
+    "revision": "6b3efa1f3146bb8e0d5324692e12860d",
+    "url": "/NewPersonalWebsiteReact/static/media/parallax0.6b3efa1f.png"
   },
   {
     "revision": "b35b5de97382560a5573dd18b253bf1a",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/NewPersonalWebsiteReact/static/css/1.64a19c55.chunk.css"
   },
   {
-    "revision": "6610d9727fb4b57e3a75adc5742f82cf",
+    "revision": "6c31a4b8e2cd00bea899469b06dc5393",
     "url": "/NewPersonalWebsiteReact/index.html"
   }
 ];
