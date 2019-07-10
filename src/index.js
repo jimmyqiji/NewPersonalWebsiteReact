@@ -7,7 +7,7 @@ import Portfolio from './Portfolio';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-	<BrowserRouter>
+	<BrowserRouter basename="/NewPersonalWebsiteReact">
 		<div>
 			<Route exact path="/" component={App} />
 			<Route exact path="/portfolio" component={Portfolio} />
