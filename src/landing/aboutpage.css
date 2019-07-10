@@ -24,7 +24,7 @@
 	height: 100%;
 	left: 0;
 	right: 0;
-	top: 50%;
+	top: 70%;
 	z-index: -1;
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: skewY(15deg);
