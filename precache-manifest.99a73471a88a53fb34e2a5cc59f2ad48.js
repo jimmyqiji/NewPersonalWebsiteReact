@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/NewPersonalWebsiteReact/static/media/parallax1.70af3068.png"
   },
   {
-    "revision": "b5c90029e38c25ae8902",
+    "revision": "f578e0ca69f853fd1455",
     "url": "/NewPersonalWebsiteReact/static/css/main.b02dd822.chunk.css"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/NewPersonalWebsiteReact/static/media/parallax6.630f81ff.png"
   },
   {
-    "revision": "b5c90029e38c25ae8902",
-    "url": "/NewPersonalWebsiteReact/static/js/main.b5c90029.chunk.js"
+    "revision": "f578e0ca69f853fd1455",
+    "url": "/NewPersonalWebsiteReact/static/js/main.f578e0ca.chunk.js"
   },
   {
     "revision": "b555e24e2e300370ba0b8367f6ddc6f8",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/NewPersonalWebsiteReact/static/css/1.64a19c55.chunk.css"
   },
   {
-    "revision": "6c31a4b8e2cd00bea899469b06dc5393",
+    "revision": "a14cdeed6a04dd05887aa4d1c632b045",
     "url": "/NewPersonalWebsiteReact/index.html"
   }
 ];
