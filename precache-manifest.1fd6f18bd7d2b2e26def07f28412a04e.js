@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/parallax1.70af3068.png"
   },
   {
-    "revision": "227f721ed3058af920a4",
+    "revision": "057a3a7dfe29f51f1066",
     "url": "/static/css/main.afa271cc.chunk.css"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/static/media/parallax6.630f81ff.png"
   },
   {
-    "revision": "227f721ed3058af920a4",
-    "url": "/static/js/main.227f721e.chunk.js"
+    "revision": "057a3a7dfe29f51f1066",
+    "url": "/static/js/main.057a3a7d.chunk.js"
   },
   {
     "revision": "b555e24e2e300370ba0b8367f6ddc6f8",
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/static/media/keyart-mobile.33cc3e36.jpg"
   },
   {
-    "revision": "3141a1e293960b4c83ecd2bc646138a4",
-    "url": "/static/media/parallax3.3141a1e2.png"
-  },
-  {
     "revision": "6b3efa1f3146bb8e0d5324692e12860d",
     "url": "/static/media/parallax0.6b3efa1f.png"
+  },
+  {
+    "revision": "3141a1e293960b4c83ecd2bc646138a4",
+    "url": "/static/media/parallax3.3141a1e2.png"
   },
   {
     "revision": "b35b5de97382560a5573dd18b253bf1a",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.64a19c55.chunk.css"
   },
   {
-    "revision": "c368ac43795ad2242c7d890df61c8d97",
+    "revision": "2bd523e14dce23b5b75ba435ab68905f",
     "url": "/index.html"
   }
 ];
