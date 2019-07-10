@@ -26,7 +26,6 @@ class Portfolio extends React.Component {
 	      st = $(window).scrollTop();
 			}
 		  lastScrollTop = st;
-		  console.log(st);
 		});
 	}
 
