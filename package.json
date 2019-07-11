@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://jimmyqi.me",
   "dependencies": {
+    "fullpage.js": "^3.0.7",
     "gh-pages": "^2.0.1",
     "jquery": "^3.4.1",
     "owl.carousel": "^2.3.4",

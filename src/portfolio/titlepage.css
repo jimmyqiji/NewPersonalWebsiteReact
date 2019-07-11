@@ -30,41 +30,16 @@
 
 #port-title-text {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	color: #e4e3e5;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.port-scrldown a {
+#port-scrldown {
   position: absolute;
-  bottom: 20px;
-  left: 50%;
-  z-index: 10;
-  display: inline-block;
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
-  color: #fff;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
-  letter-spacing: .1em;
-  text-decoration: none;
-  transition: opacity .3s;
-  opacity: .5;
-}
-
-.port-scrldown a:hover {
-  opacity: 1;
-}
-
-#port-scrldown1 a {
-  padding-top: 60px;
-  color: #fff;
-  font-size: 12px;
-}
-#port-scrldown1 a span {
-  position: absolute;
-  top: 0;
+  top: 90%;
   left: 50%;
   width: 46px;
   height: 46px;
@@ -72,8 +47,13 @@
   border: 1px solid #fff;
   border-radius: 100%;
   box-sizing: border-box;
+  transition: opacity .3s;
+  opacity: .5;
 }
-#port-scrldown1 a span::after {
+#port-scrldown:hover {
+  opacity: 1;
+}
+#port-scrldown::after {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -87,7 +67,7 @@
   transform: rotate(-45deg);
   box-sizing: border-box;
 }
-#port-scrldown1 a span::before {
+#port-scrldown::before {
   position: absolute;
   top: 0;
   left: 0;

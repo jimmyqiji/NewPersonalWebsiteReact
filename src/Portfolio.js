@@ -2,7 +2,9 @@ import $ from 'jquery';
 import React from 'react';
 import TitlePage from './portfolio/titlepage'
 import ProjectPage from './portfolio/projectpage'
+import Contacts from './landing/contacts'
 import FooterPage from './landing/footer'
+import fullpage from 'fullpage.js'
 import './Portfolio.css'
 
 class Portfolio extends React.Component {
@@ -11,33 +13,29 @@ class Portfolio extends React.Component {
 			<div id="portfolio">
 				<TitlePage />
 				<ProjectPage />
-				<FooterPage />
+				<div class="section fp-auto-height">
+					<Contacts />
+					<FooterPage />
+				</div>
 			</div>
 		);
 	}
 
-	addOnScroll() {
-		let lastScrollTop = 0;
-		$(window).scroll(() => {
-			let st = $(window).scrollTop();
-			if(st < 50 && st > lastScrollTop){
-	      // downscroll code
-	      scrollToElement('#projectpage');
-	      st = $(window).scrollTop();
-			}
-		  lastScrollTop = st;
+	componentDidMount() {
+		const fp = this.setupFullpage();
+		$('#port-scrldown').click(() => { fp.moveSectionDown(); });
+	}
+
+	setupFullpage() {
+		return new fullpage('#portfolio', {
+			//options here
+			autoScrolling:true,
+			scrollHorizontally: true,
+			slidesNavigation: true,
+			slidesNavPosition: 'bottom',
+			dragAndMove: true,
 		});
 	}
-
-	componentDidMount() {
-		$('#port-scrldown1 a').click(() => { scrollToElement('#projectpage') });
-	}
-}
-
-function scrollToElement(selector) {
-	$('html,body').stop().animate({
-    scrollTop: $(selector).offset().top
-  }, 300, 'swing');
 }
 
 export default Portfolio;

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 class TitlePage extends React.Component {
 	render() {
 		return(
-			<div id="port-title-page">
+			<div id="port-title-page" className="section">
 				<div id="homebtn">
 					<Link to="/" style={{ textDecoration: 'none' }}>
 						<button type="button" class="whitebtn btn btn-outline-secondary">Home</button>
@@ -15,9 +15,7 @@ class TitlePage extends React.Component {
 					<div><h1>Portfolio</h1></div>
 					<div><h2>A Collection of Projects</h2></div>
 				</div>
-				<div id="port-scrldown1" class="port-scrldown clearfix">
-					<a scrlto="#projectpage"><span></span></a>
-				</div>
+				<span id="port-scrldown"></span>
 			</div>
 		);
 	}

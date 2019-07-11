@@ -1,12 +1,12 @@
-.proj_img {
+/* .proj_img {
 	width: 100%;
 	height: 80vh;
 	background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-.proj_title {
+/* .proj_title {
 	text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 8vh;
@@ -15,88 +15,4 @@
 .proj_description {
   height: 92vh;
 }
-
-#carousel .owl-item {
-  display: block;
-  width: 100%;
-  height: auto;
-  cursor:grab;
-  cursor:-webkit-grab;
-}
-
-.owl-theme .owl-controls .owl-page span{
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	background: none;
-  border:1px solid #000;
-}
-
-.owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls.clickable .owl-page:hover span{
-  background:#888;
-  border:1px solid #888;
-}
-
-.owl-dots {
-	position: absolute;
-	top: 75vh;
-	left: 50%;
-	transform: translate(-50%, 0);
-}
-
-.arrowbtn {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background: transparent;
-  border: 2px solid grey;
-  border-radius: 60px;
-  color: grey;
-  cursor: pointer;
-  top: 140%;
-  line-height: 60px;
-  margin-top: -30px;
-  transition: all 0.25s ease-in-out;
-  z-index: 15;
-}
-
-.arrowbtn:hover {
-  background: transparent;
-  border-color: white;
-  color: white;
-}
-
-.arrowbtn:after {
-  position: absolute;
-  display: inline-block;
-  content: "";
-  width: 15px;
-  height: 15px;
-  top: 50%;
-  left: 50%;
-}
-
-.arrowbtn-left {
-  left: 20px;
-}
-
-.arrowbtn-left:after {
-  margin-top: -7.5px;
-  margin-left: -3.75px;
-  border-top: 2px solid;
-  border-left: 2px solid;
-  transform: rotateZ(-45deg);
-}
-
-.arrowbtn-right {
-  right: 20px;
-}
-
-.arrowbtn-right:after {
-  margin-top: -7.5px;
-  margin-left: -11.25px;
-  border-right: 2px solid;
-  border-top: 2px solid;
-  transform: rotateZ(45deg);
-}
+ */
