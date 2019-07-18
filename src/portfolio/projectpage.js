@@ -15,7 +15,7 @@ class ProjectPage extends React.Component {
 		let proj_list = [];
 		for(let i = 0; i < this.state.projects.length; i++) {
 			proj_list.push(
-				<div id={"project" + i} class="slide">
+				<div id={"project" + i} class="slide project">
 					{this.state.projects[i]}
 				</div>
 			)
@@ -26,10 +26,7 @@ class ProjectPage extends React.Component {
 	render() {
 		return(
 			<div id="projectpage" className="section">					
-        {/* {this.renderProjects()} */}
-        <div class="slide"><img src="http://placehold.it/2000x400/a21010/ffffff" alt="orange tree"/></div>
-        <div class="slide"><img src="http://placehold.it/2000x400/1096a2/ffffff" alt="orange tree"/></div>
-        <div class="slide"><img src="http://placehold.it/2000x400/a28c10/ffffff" alt="orange tree"/></div>
+        {this.renderProjects()}
 			</div>
 		);
 	}
