@@ -14,7 +14,7 @@
   text-align: center;
   top: 20vh;
   font-size: 6rem;
-  z-index: 1000;
+  z-index: 10;
   cursor: default;
 }
 
@@ -25,7 +25,7 @@
 #links {
   color: black;
   position: absolute;
-  z-index: 1000;
+  z-index: 10;
   top:40vh;
   text-align: center;
   left: 50%;
