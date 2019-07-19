@@ -8,6 +8,13 @@ import fullpage from 'fullpage.js'
 import './Portfolio.css'
 
 class Portfolio extends React.Component {
+	constructor(props) {
+		super(props);
+		this.states = {
+			fullpage_on: false,
+		};
+	}
+
 	render() {
 		return(
 			<div id="portfolio">
@@ -22,8 +29,11 @@ class Portfolio extends React.Component {
 	}
 
 	componentDidMount() {
-		const fp = this.setupFullpage();
-		$('#port-scrldown').click(() => { fp.moveSectionDown(); });
+		if (!this.states.fullpage_on) {
+			const fp = this.setupFullpage();
+			this.states.fullpage_on = true;
+			$('#port-scrldown').click(() => { fp.moveSectionDown(); });
+		}
 	}
 
 	setupFullpage() {

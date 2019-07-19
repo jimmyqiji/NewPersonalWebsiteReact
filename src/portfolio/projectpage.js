@@ -15,7 +15,7 @@ class ProjectPage extends React.Component {
 		let proj_list = [];
 		for(let i = 0; i < this.state.projects.length; i++) {
 			proj_list.push(
-				<div id={"project" + i} class="slide project">
+				<div id={"project" + i} class="slide">
 					{this.state.projects[i]}
 				</div>
 			)
