@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://jimmyqi.me",
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.15",
     "fullpage.js": "^3.0.7",
     "gh-pages": "^2.0.1",
     "jquery": "^3.4.1",
