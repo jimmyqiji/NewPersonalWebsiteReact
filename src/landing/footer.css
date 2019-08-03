@@ -37,7 +37,7 @@
 }
 
 .fb a, .fb:before, .fb { background: #3b5999; color: #3b5999; }
-.lin a, .lin:before, .lin { background: #55acee; color: #55acee; }
+.lin a, .lin:before, .lin { background: #0076b5; color: #0076b5; }
 .in a, .in:before, .in { background: #e4405f; color: #e4405f; }
 .gh a, .gh:before, .gh { background: #333333; color: #333333; }
 
@@ -74,7 +74,7 @@
 	background: transparent;
 	transition: .5s;
 	animation: icon-out .5s forwards;
-	animation-timing-function: cubic-bezier(0.5, -0.6, 1, 1);
+	animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 
 #footer ul#buttons li:before {
@@ -86,28 +86,26 @@
 	transform: rotate(-45deg) translate(-110%, -23px);
 	z-index: -2;
 	animation: back-out .5s forwards;
-	animation-timing-function: cubic-bezier(0.5, -0.6, 1, 1);
+	animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 
 #footer ul#buttons li:hover a {
 	animation: icon-in .5s forwards;
-	animation-timing-function: cubic-bezier(0, 0, 0.4, 1.6);
+	animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 
 #footer ul#buttons li:hover:before { 
 	animation: back-in .5s forwards;
-	animation-timing-function: cubic-bezier(0, 0, 0.4, 1.6);
+	animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 
 @keyframes back-in {
     0% { transform: rotate(-45deg) translate(-110%, -23px); }
-	80% { transform: rotate(-45deg) translate(5%, -23px); }
 	100% { transform: rotate(-45deg) translate(0%, -23px); }
 }
 
 @keyframes back-out {
     0% { transform: rotate(-45deg) translate(0%, -23px); }
-	20% { transform: rotate(-45deg) translate(5%, -23px); }
 	100% { transform: rotate(-45deg) translate(-110%, -23px); }
 }
 
