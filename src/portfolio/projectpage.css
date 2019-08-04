@@ -23,6 +23,12 @@
   padding-top: 5%;
   padding-left: 60px;
   padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+#projectpage .project .proj-body {
+  flex-grow: 2;
 }
 
 #projectpage .proj-img {
@@ -88,3 +94,6 @@
   cursor: default;
 }
 
+#projectpage .project .proj-footer {
+  margin-bottom: 10px;
+}

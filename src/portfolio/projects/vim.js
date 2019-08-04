@@ -1,5 +1,6 @@
 import React from 'react'
 import WindowHeader from '../../resources/components/window-header'
+import './vim.css'
 
 class Vim extends React.Component {
 	render() {
@@ -12,13 +13,15 @@ class Vim extends React.Component {
 						<img src={require('../../resources/projects/vim.png')} />
 					</div>
 					<div class="proj-description">
-						<p>When I was applying to hackathons on Major League Hacking, MLH.io, I realized that I knew nothing about geography so often times I would find myself switching tabs between getting hackathon locations on MLH and googling where that location actually is on maps</p>
-						<p>Then I found the task to be rather routine, so I had the idea of marking the locations of hackathons on a map using a chrome extension.</p>
-						<p>I scraped the metadata of all the hackathons and marked them on a map by integrating MLH with Mapbox API and LeafletJS</p>
+						<p>This project is an immitation of the popular terminal editor, vim, with over 50 commands implemented. As a team of 2, 
+							<a style={{textDecoration:'none', color:'#212529'}} href="https://github.com/ak2yang"> Andy </a> 
+						and I designed and built it in 2 weeks for CS246E.</p>
+						<p>With the SOLID principles in mind, we crafted it using the Command and Observer patterns, and following the MVC framework.</p>
+						<p>Due to the fact that this was a project for school, source code is not available to the public, however, if you wish to see it, email me your situation and if it allows, we can work something out.</p>
 					</div>
 				</div>
 				<div class="proj-footer">
-					<button type="button" class="proj-link btn btn-outline-secondary"><a href="https://github.com/jimmyqiji/MLH-Mappify">Request Source Code</a></button>
+					<button type="button" class="proj-link btn btn-outline-secondary"><a href="mailto:j35qi@uwaterloo.ca">Request Source Code</a></button>
 					<button type="button" class="proj-tech btn">C++</button>
 					<button type="button" class="proj-tech btn">Ncurses.h</button>
 				</div>
