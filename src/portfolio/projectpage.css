@@ -26,20 +26,16 @@
 }
 
 #projectpage .proj-img {
-  /* position: absolute; */
   display: block;
   left: 25%;
   top: 50%;
   width: 40%;
-  /* transform: translate(-50%, -50%); */
 }
 
 #projectpage .proj-description {
-  /* position: absolute; */
   width: 40%;
   top: 50%;
   left: 75%;
-  /* transform: translate(-50%, -50%); */
 }
 
 .proj-img img {
@@ -55,5 +51,40 @@
 	text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 8vh;
+}
+
+.project .proj-link a {
+  text-decoration: none;
+  color: #210002;
+}
+
+.project .proj-link {
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.project .proj-link:hover {
+  background-color: #A99DC4;
+}
+
+.project .proj-link:hover a {
+  color: #F3F1FC;
+  transition: .15s ease-in-out
+}
+
+.project .proj-tech {
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #A99DC4;
+  padding: 6px 12px;
+  margin: 0px 8px;
+  font-size: 0.8rem;
+  color: #210002;
+}
+
+.project .proj-tech:hover {
+  cursor: default;
 }
 

@@ -16,7 +16,7 @@ class Portfolio extends React.Component {
         slidesNavigation = {true}
         slidesNavPosition = {'bottom'}
         dragAndMove = {true}
-        sectionsColor = {['#f9ddb5', '#c7a07a', '#f9ddb5', '#f9ddb5', '#f9ddb5']}
+        sectionsColor = {['#f9ddb5', '#f8ece0', '#f9ddb5', '#f9ddb5', '#f9ddb5']}
 
         render={({ state, fullpageApi }) => {
           return (

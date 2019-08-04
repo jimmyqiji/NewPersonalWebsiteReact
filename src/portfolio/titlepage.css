@@ -1,13 +1,13 @@
 .whitebtn {
-  color: #e4e3e5;
-  border-color: #e4e3e5;
+  color: #f8ece0;
+  border-color: #f8ece0;
   display: block;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .whitebtn:hover {
-  background-color: #e4e3e5;
+  background-color: #f8ece0;
 	color: black;
 }
 
