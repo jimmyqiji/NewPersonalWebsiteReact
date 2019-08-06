@@ -1,5 +1,6 @@
 import React from 'react'
 import Mappify from './projects/mappify'
+import Etheride from './projects/etheride'
 import Vim from './projects/vim'
 import './projectpage.css'
 
@@ -7,7 +8,7 @@ class ProjectPage extends React.Component {
 	constructor(props) {
     super(props);
     this.state = {
-      projects: [<Mappify />, <Vim />]
+      projects: [<Mappify />, <Etheride />, <Vim />]
     };
   }
 

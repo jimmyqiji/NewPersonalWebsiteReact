@@ -97,3 +97,15 @@
 #projectpage .project .proj-footer {
   margin-bottom: 10px;
 }
+
+.project .proj-restricted.proj-link:hover {
+  background-color: #8d8d8d;
+}
+
+.project .proj-restricted.proj-link a {
+  color: #777777;
+}
+
+.project .proj-restricted.proj-link:hover a {
+  color: white;
+}

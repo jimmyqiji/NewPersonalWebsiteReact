@@ -1,6 +1,5 @@
 import React from 'react'
 import WindowHeader from '../../resources/components/window-header'
-import './vim.css'
 
 class Vim extends React.Component {
 	render() {
@@ -21,7 +20,7 @@ class Vim extends React.Component {
 					</div>
 				</div>
 				<div class="proj-footer">
-					<button type="button" class="proj-link btn btn-outline-secondary"><a href="mailto:j35qi@uwaterloo.ca">Request Source Code</a></button>
+					<button type="button" class="proj-link proj-restricted btn btn-outline-secondary"><a href="mailto:j35qi@uwaterloo.ca">Request Source Code</a></button>
 					<button type="button" class="proj-tech btn">C++</button>
 					<button type="button" class="proj-tech btn">Ncurses.h</button>
 				</div>
