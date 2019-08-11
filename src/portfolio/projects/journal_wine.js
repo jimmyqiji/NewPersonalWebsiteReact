@@ -9,10 +9,10 @@ class Wine extends React.Component {
 				<div class="proj-body">
 					<div class="proj-img">
 						<WindowHeader class="proj-header" />
-						<img src={require('../../resources/projects/mappify.png')} />
+						<img src={require('../../resources/projects/wine.png')} />
 					</div>
 					<div class="proj-description">
-						<p>This project is an educational IPython journal that showcases my first encounter with machine learning after taking Andrew Ng's ML course. </p>
+						<p>This project is an educational IPython journal that documents my first encounter with machine learning after taking professor Andrew Ng's ML course. It's written with the purpose of expediting the process of learning ML concepts and useful data science libraries.</p>
 					</div>
 				</div>
 				<div class="proj-footer">
