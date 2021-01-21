@@ -9,6 +9,7 @@
 #navbar .navbar-nav {
     margin-top: 0;
     vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
 }
 
 #navbar .navbar-toggler {
@@ -38,7 +39,7 @@
     color: #a23d1b;
 }
 
-.nav-item a::before, .nav-item a::after {
+/*.nav-item a::before, .nav-item a::after {
     position: absolute;
     display: block;
     content: '';
@@ -60,7 +61,7 @@
 
 .nav-item a:hover::before, .nav-item a:hover::after {
     width: 100%;
-}
+}*/
 
 @media (max-width: 575px) {
     .nav-item a::before, .nav-item a::after {
