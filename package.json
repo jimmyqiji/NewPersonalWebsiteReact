@@ -2,7 +2,7 @@
   "name": "new-personal-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jimmyqi.me",
+  "homepage": "http://jimmyqiji.github.io",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.15",
     "fullpage.js": "^3.0.7",
